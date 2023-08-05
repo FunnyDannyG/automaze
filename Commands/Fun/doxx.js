@@ -17,7 +17,7 @@ module.exports = {
      */
     run: async (client, message, args, prefix) => {
         const ip = chance.ip();
-        const address = chance.address();
+        const address = chance.address()
 
         const fetchingEmbed = new EmbedBuilder()
         .setTitle(`⏳ Fetching...`)
