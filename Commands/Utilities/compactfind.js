@@ -40,7 +40,7 @@ module.exports = {
 
         const resultEmbed = new EmbedBuilder()
             .setTitle(`${allResults.length} results found - Search mode: R-D, fuzzy: 0.2, compact`)
-            .setDescription(results.filter(result => result.downloadURL.length).map(result => `- [${result.title}](${result.downloadURL[0]}) ${result.tags.map(tag => `${tag ? tag.icon : `Deleted Icon`}`).join(``)} - ${result.creator}`).join(`\n`))
+            .setDescription(results.filter(result => result.downloadURL?.length).map(result => `- [${result.title}](${result.downloadURL[0]}) ${result.tags.map(tag => `${tag ? tag.icon : `Deleted Icon`}`).join(``)} - ${result.creator}`).join(`\n`))
             .setColor(`Green`);
 
         if (resultsLeft) {
