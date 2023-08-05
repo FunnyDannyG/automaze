@@ -1,3 +1,5 @@
+const { EmbedBuilder } = require(`discord.js`);
+
 module.exports.run = (client, message, args) => {
     if (message.author.bot) {
         return;
@@ -13,8 +15,8 @@ module.exports.run = (client, message, args) => {
         message.reply(responses[Math.round(Math.random() * responses.length)]);
     }
 
-    if (message.content === '<@1122821715815321651>') {
-        message.reply(`wassup, my prefix is \`${prefix}\`. if this prefix collides with those of other bots, use \`${prefix}prefix [new_prefix]\``);
+    if (message.content.includes('<@1122821715815321651>')) {
+        message.reply({embeds: [new EmbedBuilder().setColor(`Aqua`).setDescription(`## wassup im automaze\n- my prefix in this server is \`${prefix}\` (customizable with \`${prefix}prefix\`)\n- currently im present in ${client.guilds.cache.size} ${client.guilds.cache.size <= 1 ? `server` : `servers`}!\n- interested in how im built? [im actually open source!](https://github.com/DeprecatedTable/automaze)\n- feeling a tad bit generous? [buy me a coffee!](https://ko-fi.com/fungusdesu)`)]});
     }
 
     if (message.content.startsWith(prefix)) {
