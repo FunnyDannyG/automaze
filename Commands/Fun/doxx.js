@@ -16,8 +16,14 @@ module.exports = {
      * @param {String} prefix 
      */
     run: async (client, message, args, prefix) => {
-        const ip = chance.ip();
-        const address = chance.address()
+        const member = message.mentions.members.first();
+
+        if (!member) {
+            return void message.reply(`no member to doxx provided`)
+        }
+
+        const ip = client.doxxIp.ensure(member.user.id, () => chance.ip());
+        const address = client.doxxAddress.ensure(member.user.id, () => chance.address());
 
         const fetchingEmbed = new EmbedBuilder()
         .setTitle(`⏳ Fetching...`)

@@ -48,6 +48,9 @@ client.epochs = new Enmap({name: 'epochs'});
 
 client.use = new Discord.Collection();
 
+client.doxxIp = new Discord.Collection();
+client.doxxAddress = new Discord.Collection();
+
 client.prefix = new Enmap({name: 'prefix'});
 client.modelSearchEngine = new miniSearch({
     fields: ['title', 'creator', 'downloadURL'],
