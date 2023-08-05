@@ -1,0 +1,111 @@
+{
+    "Shittium_Pickaxe": {
+        "name": "Shittium Pickaxe",
+        "type": "Pickaxe",
+        "keyName": "Shittium_Pickaxe",
+        "aliases": ["shittium pickaxe", "shittium pick", "spick"],
+        "durability": 50,
+        "canOnlyMine": [
+            {
+                "name": "Shittium",
+                "loot": 4
+            },
+            {
+                "name": "Opium",
+                "loot": 2
+            },
+            {
+                "name": "Ballinine",
+                "loot": 1
+            }
+        ]
+    },
+    "Opium_Pickaxe": {
+        "name": "Opium Pickaxe",
+        "type": "Pickaxe",
+        "keyName": "Opium_Pickaxe",
+        "aliases": ["opium pickaxe", "opium pick", "opick"],
+        "durability": 100,
+        "canOnlyMine": [
+            {
+                "name": "Shittium",
+                "loot": 3
+            },
+            {
+                "name": "Opium",
+                "loot": 5
+            },
+            {
+                "name": "Ballinine",
+                "loot": 2
+            },
+            {
+                "name": "Kysine",
+                "loot": 1
+            }
+        ]
+    },
+    "Ballinine_Pickaxe": {
+        "name": "Ballinine Pickaxe",
+        "type": "Pickaxe",
+        "keyName": "Ballinine_Pickaxe",
+        "aliases": ["ballinine pickaxe", "ballinine pick", "bpick"],
+        "durability": 300,
+        "canOnlyMine": [
+            {
+                "name": "Opium",
+                "loot": 3
+            },
+            {
+                "name": "Ballinine",
+                "loot": 5
+            },
+            {
+                "name": "Kysine",
+                "loot": 2
+            },
+            {
+                "name": "Tetoine",
+                "loot": 1
+            }
+        ]
+    },
+    "Kysine_Pickaxe": {
+        "name": "Kysine Pickaxe",
+        "type": "Pickaxe",
+        "keyName": "Kysine_Pickaxe",
+        "aliases": ["kysine pickaxe", "kysine pick", "kpick"],
+        "durability": 500,
+        "canOnlyMine": [
+            {
+                "name": "Ballinine",
+                "loot": 4
+            },
+            {
+                "name": "Kysine",
+                "loot": 3
+            },
+            {
+                "name": "Tetoine",
+                "loot": 2
+            }
+        ]
+    },
+    "Tetoine_Pickaxe": {
+        "name": "Tetoine Pickaxe",
+        "type": "Pickaxe",
+        "keyName": "Tetoine_Pickaxe",
+        "aliases": ["tetoine pickaxe", "tetoine pick", "tpick"],
+        "durability": 1000,
+        "canOnlyMine": [
+            {
+                "name": "Kysine",
+                "loot": 6
+            },
+            {
+                "name": "Tetoine",
+                "loot": 5
+            }
+        ]
+    }
+}
