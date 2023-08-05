@@ -16,7 +16,7 @@ module.exports = {
     run: async (client, message, args, prefix) => {
         const embed = new EmbedBuilder()
         .setTitle(`Risorse`)
-        .setDescription(`## • Guide tradotte in italiano da Ilaria\nhttps://rentry.org/link-utili`)
+        .setDescription(`## • Link utili a cura di Ilaria\nhttps://rentry.org/link-utili`)
         .setColor(`Yellow`);
 
         if (message.mentions.members.first()) {
