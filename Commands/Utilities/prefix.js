@@ -15,7 +15,7 @@ module.exports = {
         const newPrefix = message.content.split(' ').slice(1).join(' ')
 
         if (message.member.roles.highest.rawPosition < message.guild.roles.cache.get('1099570752560300102').rawPosition || !newPrefix) {
-            return void message.reply(`The current server is having my prefix as \`-\``);
+            return void message.reply(`The current server is having my prefix as \`${prefix}\``);
         }
 
         client.prefix.set(message.guild.id, newPrefix);

@@ -13,7 +13,7 @@ module.exports = {
      */
     run: (client, message, args, prefix) => {
         if (message.member.roles.highest.rawPosition < message.guild.roles.cache.get('1099570752560300102').rawPosition) {
-            return void message.reply(`The current server is having my prefix as \`-\``);
+            return void message.reply(`The current server is having my prefix as \`${prefix}\``);
         }
 
         client.prefix.set(message.guild.id, '-');
