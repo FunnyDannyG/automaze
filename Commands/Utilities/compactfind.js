@@ -20,7 +20,7 @@ module.exports = {
             return void message.reply(`no query provided`);
         }
 
-        let allResults = client.modelSearchEngine.search(query, { fuzzy: 0.2 });
+        let allResults = client.modelSearchEngine.search(query, { fuzzy: 0.2 }).filter(result => result.downloadURL && result.downloadURL.length);
 
         allResults.sort((a, b) => b.score - a.score); // GPT-generated code, sort the results in descending order
 
@@ -40,7 +40,7 @@ module.exports = {
 
         const resultEmbed = new EmbedBuilder()
             .setTitle(`${allResults.length} results found - Search mode: R-D, fuzzy: 0.2, compact`)
-            .setDescription(results.filter(result => result.downloadURL?.length).map(result => `- [${result.title}](${result.downloadURL[0]}) ${result.tags.map(tag => `${tag ? tag.icon : `Deleted Icon`}`).join(``)} - ${result.creator}`).join(`\n`))
+            .setDescription(results.map(result => `- [${result.title}](${result.downloadURL[0]}) ${result.tags.map(tag => `${tag ? tag.icon : `Deleted Icon`}`).join(``)} - ${result.creator}`).join(`\n`))
             .setColor(`Green`);
 
         if (resultsLeft) {
