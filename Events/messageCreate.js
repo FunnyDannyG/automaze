@@ -1,5 +1,4 @@
 const { EmbedBuilder } = require(`discord.js`);
-const { execSync } = require('child_process');
 
 module.exports.run = (client, message, args) => {
     if (message.author.bot) {
@@ -17,9 +16,7 @@ module.exports.run = (client, message, args) => {
     }
 
     if (message.content.includes('<@1122821715815321651>')) {
-        const totalAmount = execSync('python Events/coffeeCounter.py', {encoding: 'utf-8'})
-
-        message.reply({ embeds: [new EmbedBuilder().setColor(`Aqua`).setDescription(`## wassup im automaze\n- my prefix in this server is \`${prefix}\` (customizable with \`${prefix}prefix\`)\n- currently im present in ${client.guilds.cache.size} ${client.guilds.cache.size <= 1 ? `server` : `servers`}!\n- interested in how im built? [im actually open source!](https://github.com/DeprecatedTable/automaze)\n- feeling a tad bit generous? [buy me a coffee! im currently having ${totalAmount}](https://ko-fi.com/fungusdesu)`)] });
+        message.reply({ embeds: [new EmbedBuilder().setColor(`Aqua`).setDescription(`## wassup im automaze\n- my prefix in this server is \`${prefix}\` (customizable with \`${prefix}prefix\`)\n- currently im present in ${client.guilds.cache.size} ${client.guilds.cache.size <= 1 ? `server` : `servers`}!\n- interested in how im built? [im actually open source!](https://github.com/DeprecatedTable/automaze)\n- feeling a tad bit generous? [buy me a coffee!](https://ko-fi.com/fungusdesu)`)] });
     }
 
     if (message.content.startsWith(prefix)) {

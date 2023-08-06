@@ -1,6 +1,7 @@
 { pkgs }: {
 	deps = [
-		pkgs.python310
+		pkgs.python39Packages.pip
+  pkgs.python310
   pkgs.sudo
   pkgs.gh
   pkgs.nodejs-18_x
