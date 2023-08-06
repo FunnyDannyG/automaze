@@ -1,7 +1,8 @@
 .env
 data/
 JSON/
+node_modules/
 
-git remote add origin https://github.com/DeprecatedTable/automaze-bot.git
-git branch -M main
-git push -u origin main
+# git remote add origin https://github.com/DeprecatedTable/automaze-bot.git
+# git branch -M main
+# git push -u origin main
