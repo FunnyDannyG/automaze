@@ -20,12 +20,12 @@ module.exports = {
             return void message.reply(`no query provided`);
         }
 
-        if (message.channel.id !== '1135953335388733502') {
-            return void message.reply(`you cannot use this command, please move to its dedicated channel or use \`${prefix}cfind\` instead`);
-        }
+        //if (message.channel.id !== '1135953335388733502') {
+        //    return void message.reply(`you cannot use this command, please move to its dedicated channel or use \`${prefix}cfind\` instead`);
+        //}
         let fuzzyValue = 0;
         
-        let allResults = client.modelSearchEngine.search(query, { fuzzy: fuzzyValue });
+        let allResults = client.modelSearchEngine.search(query, { fuzzy: fuzzyValue }).filter(result => result.downloadURL && result.downloadURL.length);
 
         allResults.sort((a, b) => b.score - a.score); // GPT-generated code, sort the results in descending order
 
@@ -79,7 +79,7 @@ module.exports = {
 
         let resultEmbed = new EmbedBuilder()
             .setTitle(`${allResults.length} results found - Search mode: ${displayAttribute}-${displayOrder}, fuzzy: ${fuzzyValue}`)
-            .setDescription(results.filter(result => result.downloadURL?.length).map(result => `### ‣ ${result.title}\n**Creator**: ${result.creator}\n**Download URLs**: ${result.downloadURL.map(url => `[${new URL(url).host}](${url})`).join(', ')}\n**Tags**: ${result.tags.map(tag => `${tag ? tag.name : `Deleted Tag`} ${tag ? tag.icon : `Deleted Icon`}`).join(`, `)}\n**Created**: <t:${Math.round(result.creationTimestamp / 1000)}:R>`).join(`\n\n`))
+            .setDescription(results.map(result => `### ‣ ${result.title}\n**Creator**: ${result.creator}\n**Download URLs**: ${result.downloadURL.map(url => `[${new URL(url).host}](${url})`).join(', ')}\n**Tags**: ${result.tags.map(tag => `${tag ? tag.name : `Deleted Tag`} ${tag ? tag.icon : `Deleted Icon`}`).join(`, `)}\n**Created**: <t:${Math.round(result.creationTimestamp / 1000)}:R>`).join(`\n\n`))
             .setColor(`Green`);
 
         if (resultsLeft) {
@@ -126,7 +126,7 @@ module.exports = {
         }
 
         function updatedEmbed(embed) {
-            return EmbedBuilder.from(embed).setTitle(`${allResults.length} results found - Search mode: ${displayAttribute}-${displayOrder}, fuzzy: ${fuzzyValue}`).setDescription(results.filter(result => result.downloadURL?.length).map(result => `### ‣ ${result.title}\n**Creator**: ${result.creator}\n**Download URLs**: ${result.downloadURL.map(url => `[${new URL(url).host}](${url})`).join(', ')}\n**Tags**: ${result.tags.map(tag => `${tag ? tag.name : `Deleted Tag`} ${tag ? tag.icon : `Deleted Icon`}`).join(`, `)}\n**Created**: <t:${Math.round(result.creationTimestamp / 1000)}:R>`).join(`\n\n`)).setFooter({ text: `Page ${page}/${possiblePages}` }).setColor(`Green`);
+            return EmbedBuilder.from(embed).setTitle(`${allResults.length} results found - Search mode: ${displayAttribute}-${displayOrder}, fuzzy: ${fuzzyValue}`).setDescription(results.map(result => `### ‣ ${result.title}\n**Creator**: ${result.creator}\n**Download URLs**: ${result.downloadURL.map(url => `[${new URL(url).host}](${url})`).join(', ')}\n**Tags**: ${result.tags.map(tag => `${tag ? tag.name : `Deleted Tag`} ${tag ? tag.icon : `Deleted Icon`}`).join(`, `)}\n**Created**: <t:${Math.round(result.creationTimestamp / 1000)}:R>`).join(`\n\n`)).setFooter({ text: `Page ${page}/${possiblePages}` }).setColor(`Green`);
         }
 
         const sortDropdown = new StringSelectMenuBuilder()
@@ -244,7 +244,7 @@ module.exports = {
 
                 fuzzyValue = fuzzyInputValue;
 
-                allResults = client.modelSearchEngine.search(query, { fuzzy: fuzzyValue, fields: strictSearchInputValue });
+                allResults = client.modelSearchEngine.search(query, { fuzzy: fuzzyValue, fields: strictSearchInputValue }).filter(result => result.downloadURL && result.downloadURL.length);
 
                 if (!allResults.length) {
                     return await submission.update({ embeds: [new EmbedBuilder().setTitle('No result found.').setDescription(availableSuggestions.length ? `## Did you mean...?\n${availableSuggestions.map(sugg => `### ‣ \`${sugg.suggestion}\` - ${Math.round(sugg.score * 10)}% match`).join(`\n`)}` : `No available suggestions for this query.`).setColor(`Red`)] });
