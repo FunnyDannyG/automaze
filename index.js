@@ -1,8 +1,10 @@
-const express = require("express");
-const app = express();
 const Enmap = require("enmap");
 const documents = require(`./JSON/models.json`);
 const miniSearch = require('minisearch');
+// require('dotenv').config()
+
+const express = require("express");
+const app = express();
 
 app.listen(3000, () => {
   console.log("whatever you want here");
@@ -11,6 +13,8 @@ app.listen(3000, () => {
 app.get("/", (req, res) => {
   res.send("whatever you want here");
 });
+
+// If you are going to fork this, remove line 5-14, they are there for hosting purpose, you don't need them if you run locally
 
 const Discord = require(`discord.js`);
 
