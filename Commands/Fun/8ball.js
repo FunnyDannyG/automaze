@@ -37,7 +37,7 @@ module.exports = {
             return bar.join(``);
         }
 
-        const question = message.content.split(' ').slice(1).join(' ')
+        const question = message.content.split(' ').slice(1).join(' ');
 
         const loadingEmbed = new EmbedBuilder()
         .setTitle(`🎱 predicting the future... 🎱`)

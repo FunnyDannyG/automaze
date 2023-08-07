@@ -263,6 +263,8 @@ module.exports = {
                 results = getSubarrayByPage(allResults, page);
                 resultsLeft = allResults.length - 3;
 
+                updateScroll();
+
                 await submission.update({ embeds: [updatedEmbed(allResults)], components: [GUI, sortDropdownGUI] });
             }
 
