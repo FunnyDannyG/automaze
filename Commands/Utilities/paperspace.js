@@ -15,7 +15,7 @@ module.exports = {
      */
     run: (client, message, args, prefix) => {
         const embed = new EmbedBuilder()
-        .setTitle(`RVC Guides`)
+        .setTitle(`Paperspace Guide`)
         .setDescription(`## • Make an AI cover using an existing model on RVC v2\nhttps://docs.google.com/document/d/1lIAK4Y0ylash_1M2UTTL_tfA3_mEzP0D2kjX2A3rfSY/edit?usp=sharing`)
         .setColor(`Blue`);
 
