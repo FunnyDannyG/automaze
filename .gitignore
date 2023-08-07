@@ -1,6 +1,6 @@
 .env
 data/
-JSON/
+JSON/models.json
 node_modules/
 .replit
 replit.nix

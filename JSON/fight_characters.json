@@ -1,0 +1,160 @@
+{
+    "kalomaze": {
+        "name": "kalomaze",
+        "aliases": ["andrew", "kalo"],
+        "image": "https://cdn.discordapp.com/attachments/1119796145036738652/1122821884594094080/OBJWaeq6_400x400.png",
+        "description": "very based ai hub owner i think",
+        "stats": {
+            "attack": 71,
+            "health": 81,
+            "stamina": 60,
+            "precision": 61
+        },
+        "skills": {
+            "Punch_Combo": {
+                "name": "Punch Combo",
+                "description": "Personal attack. Deliver a basic multihit attack to the stomach.",
+                "staminaCost": 25,
+                "damage": 1.71,
+                "cooldown": 1
+            },
+            "Kalo_Ping": {
+                "name": "Kalo Ping",
+                "description": "Boost attack. Spam ping the opponent and use their annoyance to your advantage, gaining manoeuvrability for 1 turn.",
+                "staminaCost": 25,
+                "damage": 1.73,
+                "selfEffects": ["Manoeuvre_1"],
+                "cooldown": 2
+            },
+            "Krill_Yourself": {
+                "name": "Krill Yourself",
+                "description": "Status attack. Release an innumerable amount of krills swarming the enemy, blinding them for 1 turn.",
+                "staminaCost": 35,
+                "damage": 1.82,
+                "enemyEffects": ["Blindness_1"],
+                "cooldown": 2
+            },
+            "KKKalomaze": {
+                "name": "KKKalomaze",
+                "description": "Penultimate. RAISE YOUR TORCH!!!",
+                "staminaCost": 50,
+                "damage": 2.71,
+                "cooldown": 3
+            },
+            "Hi_Everyone_Im_Kalomaze": {
+                "name": "Hi Everyone I'm Kalomaze",
+                "description": "Ultimate. Nothing can stop the influx of pings.",
+                "staminaCost": 60,
+                "damage": 3.86,
+                "cooldown": 3
+            }
+        },
+        "chance": 30
+    },
+    "ski": {
+        "name": "1ski",
+        "aliases": ["1ski"],
+        "image": "https://cdn.discordapp.com/avatars/752610498310307861/a_41d2b9ca54ebb3c85a11b5493356b9bb.gif?size=4096",
+        "description": "very based very cool mod",
+        "stats": {
+            "attack": 72,
+            "health": 73,
+            "stamina": 75,
+            "precision": 60
+        },
+        "skills": {
+            "Gravitational_Debris": {
+                "name": "Gravitational Debris",
+                "description": "Personal attack. Apply sideway gravity to lift debris towards the opponent.",
+                "staminaCost": 20,
+                "damage": 1.59,
+                "cooldown": 1
+            },
+            "Gravitational_Shift": {
+                "name": "Gravitational Shift",
+                "description": "Boost attack. Apply harsher gravity to everything except self, attaining manoeuvrability for 2 turns.",
+                "staminaCost": 35,
+                "damage": 1.31,
+                "selfEffects": ["Manoeuvre_2"],
+                "cooldown": 2
+            },
+            "Spaghettification": {
+                "name": "Spaghettification",
+                "description": "Status attack. Create 2 gravity fields of opposing direction and spatially stretch the opponent apart, rendering them unable to breathe for 1 turn.",
+                "staminaCost": 50,
+                "damage": 1.76,
+                "enemyEffects": ["Breathless_1"],
+                "cooldown": 3
+            },
+            "Gravity_Implosion": {
+                "name": "Gravity Implosion",
+                "description": "Penultimate. Create an inward gravity field in the opponent's, crushing them from the inside.",
+                "staminaCost": 50,
+                "damage": 2.55,
+                "cooldown": 3
+            },
+            "Gravitas_Impetus": {
+                "name": "Gravitas Impetus",
+                "description": "Ultimate. Paramount downwards gravity renders the opponent inescapable, paralyzing them for 2 turns.",
+                "staminaCost": 75,
+                "damage": 2.88,
+                "enemyEffects": ["Paralysis_2"],
+                "cooldown": 5
+            }
+        },
+        "chance": 35
+    },
+    "PUSSYPUNISHER": {
+        "name": "PUSSYPUNISHER",
+        "aliases": ["pussy", "pussypunisher", "alex"],
+        "image": "https://cdn.discordapp.com/avatars/718415427994124351/9d31a949a24d7d49e7a5b9b111c1b345.png?size=4096",
+        "description": "HE PUNISHES YOUR PUSSY AND DRIVES YOU TO FUCKING INSANITY",
+        "stats": {
+            "attack": 85,
+            "health": 65,
+            "stamina": 65,
+            "precision": 59
+        },
+        "skills": {
+            "IP_Leak": {
+                "name": "IP Leak",
+                "description": "Personal attack. Leak the opponent's public IP address.",
+                "staminaCost": 20,
+                "damage": 1.52,
+                "cooldown": 1
+            },
+            "Virtual_Private_Network": {
+                "name": "Virtual Private Network",
+                "description": "Boost attack. Improve your resistance for 3 turn using a private internet provider.",
+                "staminaCost": 35,
+                "damage": 0,
+                "selfEffects": ["Resistance_3"],
+                "cooldown": 4
+            },
+            "DDoS_Attack": {
+                "name": "DDoS Attack",
+                "description": "Status attack. Perform a denial-of-service attack on the opponent, paralyzing them for 1 turn.",
+                "staminaCost": 50,
+                "damage": 1.81,
+                "enemyEffects": ["Paralysis_1"],
+                "cooldown": 3
+            },
+            "Account_Phishing": {
+                "name": "Account Phishing",
+                "description": "Penultimate. Trick the enemy into clicking a suspicious link and phish their account.",
+                "staminaCost": 60,
+                "damage": 2.61,
+                "cooldown": 3
+            },
+            "Death_Threats": {
+                "name": "Death Threats",
+                "description": "Ultimate. Threaten to unalive the opponent's loved ones, inducing panic within them for 2 turns.",
+                "staminaCost": 65,
+                "damage": 2.55,
+                "enemyEffects": ["Panic_2"],
+                "cooldown": 4
+            }
+        },
+        "chance": 35
+    }
+}

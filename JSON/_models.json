@@ -1,0 +1,2822 @@
+[
+  {
+    "id": 1,
+    "title": "Patrick Star (German old voice), 875 Epochs, RVC v2 (Spongebob)",
+    "starterMessage": "Patrick Star (German old voice) (Season 1 - 7), 875 Epochs, RVC v2, rmvpe, trained on 2 minutes of audio\n\nhttps://huggingface.co/lepifort/patrickgermanRVC/resolve/main/patrickgerman.zip",
+    "creator": "lepifort",
+    "creatorID": "1131991983062270095",
+    "creationTimestamp": 1690715473499,
+    "downloadURL": [
+      "https://huggingface.co/lepifort/patrickgermanRVC/resolve/main/patrickgerman.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135167714357420122/1135167715405987890/Neues_Projekt_8.png",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1123794615502377090",
+        "name": "Other Languages",
+        "icon": "🌐"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1122951427522834502",
+        "name": "OG Character/Self",
+        "icon": "🙂"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Shiori Novella (RVC 2 | HoloAdvent | Hololive EN 3rd Generation) 430 Epochs",
+    "starterMessage": "https://huggingface.co/MahdeenSky/MahdeenSkyRVC/blob/main/ShioriNovellaByMahdeenSky.zip\n\nYour Goth Girlfriend that also turns out to be quite the bookworm?\nCredits: Me (MahdeenSky)\nLink: https://pixeldrain.com/u/7KPt3M5D\nSinging Sample: https://www.youtube.com/watch?v=b3rL-1nrtZU",
+    "creator": "mahdeensky",
+    "creatorID": "385895514324992011",
+    "creationTimestamp": 1690715204079,
+    "downloadURL": [
+      "https://huggingface.co/MahdeenSky/MahdeenSkyRVC/blob/main/ShioriNovellaByMahdeenSky.zip",
+      "https://pixeldrain.com/u/7KPt3M5D"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135166584328032257/1135166584646795284/Shiori_Novella_Portrait.webp",
+    "tags": [
+      {
+        "snowflake": "1110364355700199464",
+        "name": "Anime Character",
+        "icon": "<:AnimeTagIcon:1110364151357898762>"
+      },
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Michael Jackson (Invincible Era) (RVC v2, Mangio Crepe) (500 Epochs)",
+    "starterMessage": "Trained on a 14 minute dataset of studio quality samples.\nhttps://huggingface.co/fazemasta/mj-invincible/resolve/main/mjinvincible.zip",
+    "creator": "fazemasta",
+    "creatorID": "622856015444049937",
+    "creationTimestamp": 1690715102030,
+    "downloadURL": [
+      "https://huggingface.co/fazemasta/mj-invincible/resolve/main/mjinvincible.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135166156303511572/1135166156622274640/inbinkable6000Copy_1.jpg",
+    "tags": [
+      {
+        "snowflake": "1099150044785021019",
+        "name": "Artist",
+        "icon": "🎹"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Koseki Bijou (RVC 2 | HoloAdvent | Hololive EN 3rd Generation) 420 Epochs",
+    "starterMessage": "https://huggingface.co/MahdeenSky/MahdeenSkyRVC/blob/main/KosekiBijouByMahdeenSky.zip\n\nI am a pebble now 🗿🗿🗿🗿🗿🗿🗿🗿🗿🗿🗿\nCredits: Me (MahdeenSky)\nLink: https://pixeldrain.com/u/CZFPRMoQ\nSinging Sample: https://www.youtube.com/watch?v=aExQihEBYZM",
+    "creator": "mahdeensky",
+    "creatorID": "385895514324992011",
+    "creationTimestamp": 1690715045413,
+    "downloadURL": [
+      "https://huggingface.co/MahdeenSky/MahdeenSkyRVC/blob/main/KosekiBijouByMahdeenSky.zip",
+      "https://pixeldrain.com/u/CZFPRMoQ"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135165918834610176/1135165918977200209/Koseki_Bijou_Portrait.webp",
+    "tags": [
+      {
+        "snowflake": "1110364355700199464",
+        "name": "Anime Character",
+        "icon": "<:AnimeTagIcon:1110364151357898762>"
+      },
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Trịnh Công Sơn (is a Vietnamese are musician, songwriter, painter and poet) (RVC V2) (600 Epochs)",
+    "starterMessage": "**\"Dataset Collected And Train By Me\"\nTrinh Cong Son he is a Vietnamese born and raised in Hue he is a Vietnamese music artist with the best-selling discs he has no less than 600 songs most notably Noi Vong Tay Lon and Ha Trang and Dem Thay Ta La Thac Do**\nhttps://huggingface.co/DangDangg/TrinhCongSon/resolve/main/TrinhCongSon.zip",
+    "creator": "chillinthemidnight",
+    "creatorID": "1105142535510294598",
+    "creationTimestamp": 1690713712479,
+    "downloadURL": [
+      "https://huggingface.co/DangDangg/TrinhCongSon/resolve/main/TrinhCongSon.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135160328104190012/1135160328401993818/R.png",
+    "tags": [
+      {
+        "snowflake": "1123794615502377090",
+        "name": "Other Languages",
+        "icon": "🌐"
+      },
+      {
+        "snowflake": "1099150044785021019",
+        "name": "Artist",
+        "icon": "🎹"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "JC Chasez | *NSYNC | (RVC V2) 500 Epochs",
+    "starterMessage": "Dataset prepared and trained by me <@875382323519033344> \nSamples extracted from his album: Schizophrenic (2004)\nTrained on RMVPE with ~12 minutes of (near-clean) dataset\n\nLink:\n<https://huggingface.co/udrivemecrazy/udrivemecrazyRVC/resolve/main/RVC2JCChasez500.zip>",
+    "creator": "udrivemecrazy",
+    "creatorID": "875382323519033344",
+    "creationTimestamp": 1690712219098,
+    "downloadURL": [
+      "https://huggingface.co/udrivemecrazy/udrivemecrazyRVC/resolve/main/RVC2JCChasez500.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135154064410284043/1135154064712278086/lolgettyimages-84580888-1024x1024-transformed.jpeg",
+    "tags": [
+      {
+        "snowflake": "1099150044785021019",
+        "name": "Artist",
+        "icon": "🎹"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Kermit The Frog (Jim Henson), RVC v2 - 250 Epochs",
+    "starterMessage": "https://huggingface.co/RosinoSuperRosa/Kermit-The-Frog/resolve/main/kermitthefrogjim.zip",
+    "creator": "rosinosuperrosa",
+    "creatorID": "759154619326267484",
+    "creationTimestamp": 1690711672538,
+    "downloadURL": [
+      "https://huggingface.co/RosinoSuperRosa/Kermit-The-Frog/resolve/main/kermitthefrogjim.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135151771971493908/1135151772206379028/1936-jim-henson-01.png",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1099150044785021019",
+        "name": "Artist",
+        "icon": "🎹"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Pacster (RVC V2) (250 Epochs) (Mangio-crepe)",
+    "starterMessage": "https://huggingface.co/spongey/Pacster/resolve/main/Pacster.zip\nthe pac is back... model sampled from voice clips from pac-man and the ghostly adventures 2 (3ds)\nadjust the pitch until it sounds like him",
+    "creator": "sponge2222",
+    "creatorID": "1005143572934312107",
+    "creationTimestamp": 1690711424803,
+    "downloadURL": [
+      "https://huggingface.co/spongey/Pacster/resolve/main/Pacster.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135150732895588413/1135150733856088186/pac-man-pac-man-ghost.gif",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Nomico (Bad Apple Singer) (RVC 2) (700 Epochs)",
+    "starterMessage": "Made by: <@746526613461532784>  (Me)\nDataset: 4:46 Minutes\nTrained on Harvest\nLinki: https://huggingface.co/Pawlik17/Nomico/resolve/main/NomicoBadApple.zip",
+    "creator": "tamalik",
+    "creatorID": "746526613461532784",
+    "creationTimestamp": 1690711183373,
+    "downloadURL": [
+      "https://huggingface.co/Pawlik17/Nomico/resolve/main/NomicoBadApple.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135149720264769616/1135149721137205318/ezgif.com-video-to-gif.gif",
+    "tags": [
+      {
+        "snowflake": "1099150044785021019",
+        "name": "Artist",
+        "icon": "🎹"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1121324803773702196",
+        "name": "Japanese",
+        "icon": "<:miku47:1135044469616545822>"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Dranchenlord (German Youtuber) (200 Epochs) (RVC V2) (RMVPE)",
+    "starterMessage": "commision from <@510756680942747651>\n\nDranchenlord, German YouTuber (now Tiktoker)\n200 Epochs, RMVPE\nRVC V2\n\ntag me <@508415387252293656> as credit\n \nhttps://huggingface.co/ABF54/ABFRVC/resolve/main/drachenlord.zip\n\nopen commision for AI Model, DM me for more info",
+    "creator": "abf9148",
+    "creatorID": "508415387252293656",
+    "creationTimestamp": 1690711165420,
+    "downloadURL": [
+      "https://huggingface.co/ABF54/ABFRVC/resolve/main/drachenlord.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135149644964450404/1135149645430009857/images.jpg",
+    "tags": [
+      {
+        "snowflake": "1123794615502377090",
+        "name": "Other Languages",
+        "icon": "🌐"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1114434339397177374",
+        "name": "e-Celebs",
+        "icon": "🖥"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Dr. Heinz Doofenshmirtz (Italian Voice), RVC v2 - 300 Epochs",
+    "starterMessage": "https://huggingface.co/RosinoSuperRosa/Heinz-Doofenshmirtz-Italian-Voice/resolve/main/heinzdoofenshmirtzita.zip",
+    "creator": "rosinosuperrosa",
+    "creatorID": "759154619326267484",
+    "creationTimestamp": 1690711024057,
+    "downloadURL": [
+      "https://huggingface.co/RosinoSuperRosa/Heinz-Doofenshmirtz-Italian-Voice/resolve/main/heinzdoofenshmirtzita.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135149052045054012/1135149052535779398/dr-heinz-doofenshmirtz-600134-normal.jpg",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "You Watanabe v1 (Love Live! Sunshine!!) (RVC v2) (500 Epochs)",
+    "starterMessage": "*Made by me*\nFrom approx 6 minutes of dataset.\nhttps://huggingface.co/HarunaKasuga/YoshikoTsushima/resolve/main/You%20Watanabe%20v1.zip",
+    "creator": "seakrait",
+    "creatorID": "832914132067942451",
+    "creationTimestamp": 1690710982479,
+    "downloadURL": [
+      "https://huggingface.co/HarunaKasuga/YoshikoTsushima/resolve/main/You%20Watanabe%20v1.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135148877654270013/1135148878153383996/you-watanabe-love-live-sunshine.gif",
+    "tags": [
+      {
+        "snowflake": "1110364355700199464",
+        "name": "Anime Character",
+        "icon": "<:AnimeTagIcon:1110364151357898762>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1121324803773702196",
+        "name": "Japanese",
+        "icon": "<:miku47:1135044469616545822>"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Joseph Stalin (RVC V2) mangio-crepe 250 Epochs",
+    "starterMessage": "link: https://huggingface.co/puro-changed/rvc_models/resolve/main/stalinv1.zip\ntrained on 5 mins of radio broadcasts of stalin",
+    "creator": "furbaj",
+    "creatorID": "733556974691811402",
+    "creationTimestamp": 1690709833531,
+    "downloadURL": [
+      "https://huggingface.co/puro-changed/rvc_models/resolve/main/stalinv1.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135144058617081897/1135144058864549928/hqdefault.jpg",
+    "tags": [
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Amamiya-Sensei (搾精病棟) - RVC v2 - 250 Epochs",
+    "starterMessage": "Download link:\nhttps://huggingface.co/Lancelot457357/SakuseiByoutou_AmamiyaSensei/resolve/main/Amamiya.zip\n\nAmamiya-sensei, aka Amamiya is the loud doctor from Sakusei Byoutou. Thanks to her, the series got popularized. Her cute, but loud approach with her questionable medicine made this doctor quite intriguing.\n\nAlso used rmvpe for pitch extraction 😄",
+    "creator": "thelance800",
+    "creatorID": "944988505497538600",
+    "creationTimestamp": 1690709302901,
+    "downloadURL": [
+      "https://huggingface.co/Lancelot457357/SakuseiByoutou_AmamiyaSensei/resolve/main/Amamiya.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135141832993550398/1135141833505247292/Amamiya.png",
+    "tags": [
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Kurokawa (搾精病棟) - RVC v2 - 250 Epochs",
+    "starterMessage": "Download link:\nhttps://huggingface.co/Lancelot457357/SakuseiByoutou_Kurokawa_Models/resolve/main/Kurokawa.zip\n\nThis is the naughtiest nurse you can ever meet! Our beloved Kurokawa has become a meme for some of us. So, it's worth uploading.\n\nPitch extraction done with rmvpe",
+    "creator": "thelance800",
+    "creatorID": "944988505497538600",
+    "creationTimestamp": 1690709111935,
+    "downloadURL": [
+      "https://huggingface.co/Lancelot457357/SakuseiByoutou_Kurokawa_Models/resolve/main/Kurokawa.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135141032024088667/1135141032208650290/Kurokawa.png",
+    "tags": [
+      {
+        "snowflake": "1110364355700199464",
+        "name": "Anime Character",
+        "icon": "<:AnimeTagIcon:1110364151357898762>"
+      },
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1121324803773702196",
+        "name": "Japanese",
+        "icon": "<:miku47:1135044469616545822>"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Yamaguchi (搾精病棟) - RVC v2 - 250 Epochs",
+    "starterMessage": "Download link: https://huggingface.co/Lancelot457357/Yamaguchi/resolve/main/Yamaguchi.zip\n\nIt is Yamaguchi from Sakusei Byoutou! The super violent nurse. Speaks Japanese, but this model can also interpret English songs also well.\n\nPitch extraction done with rmvpe",
+    "creator": "thelance800",
+    "creatorID": "944988505497538600",
+    "creationTimestamp": 1690708939330,
+    "downloadURL": [
+      "https://huggingface.co/Lancelot457357/Yamaguchi/resolve/main/Yamaguchi.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135140308066259046/1135140309236457493/Yamaguchi.png",
+    "tags": [
+      {
+        "snowflake": "1110364355700199464",
+        "name": "Anime Character",
+        "icon": "<:AnimeTagIcon:1110364151357898762>"
+      },
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1121324803773702196",
+        "name": "Japanese",
+        "icon": "<:miku47:1135044469616545822>"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Noire [EN] (Hyperdimension Neptunia) (RVC V2, RMVPE, 200 Epochs)",
+    "starterMessage": "**Download:** https://huggingface.co/AkshA7/Azure_RVC/resolve/main/NoireHDN.zip\nTrained on 5 minutes of the game's ripped audio files, and 16 minutes of me recording the game with turning all sounds and music off except voice\nVoice Actor: Erica Mendez / Erin Fitzgerald\nTarget Sample Rate : 48khz\n__Make sure to give proper credits if used anywhere__",
+    "creator": "aksha7",
+    "creatorID": "495870936268931072",
+    "creationTimestamp": 1690707152027,
+    "downloadURL": [
+      "https://huggingface.co/AkshA7/Azure_RVC/resolve/main/NoireHDN.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135132811574128721/1135132812316528691/ezgif.com-optimize.gif",
+    "tags": [
+      {
+        "snowflake": "1110364355700199464",
+        "name": "Anime Character",
+        "icon": "<:AnimeTagIcon:1110364151357898762>"
+      },
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Suruga Kanbaru - Bakemonogatari - RVC V2 (600 Epochs)",
+    "starterMessage": "If you want to commission an AI model, just DM me.\nTrained on ~10 mins of talking\nRVC V2 (600 Epochs)\nIf you use please credit me.\nLink: https://huggingface.co/brazurl/Kanbaru/resolve/main/Kanbaru.zip\nLinks for my others models: ⁠\nhttps://discord.com/channels/1089076875999072296/1133185314328952952\nhttps://discord.com/channels/1089076875999072296/1133523671533756416\nhttps://discord.com/channels/1089076875999072296/1132532210239541369\nhttps://discord.com/channels/1089076875999072296/1125308621295726672\nhttps://discord.com/channels/1089076875999072296/1130887546541457408\nhttps://discord.com/channels/1089076875999072296/1131951902058356736\nhttps://discord.com/channels/1089076875999072296/1127748942403227679\nhttps://discord.com/channels/1089076875999072296/1130623938335080448\nhttps://discord.com/channels/1089076875999072296/1125308621295726672\nhttps://discord.com/channels/1089076875999072296/1132770356093014206",
+    "creator": "brazurl",
+    "creatorID": "328153550368800769",
+    "creationTimestamp": 1690706505359,
+    "downloadURL": [
+      "https://huggingface.co/brazurl/Kanbaru/resolve/main/Kanbaru.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135130099251941446/1135130099532968016/jWC0NXa.jpg",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      },
+      {
+        "snowflake": "1121324803773702196",
+        "name": "Japanese",
+        "icon": "<:miku47:1135044469616545822>"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Paimon from Genshin Impact [RVC V2] [115 Epochs] [13,225 steps]",
+    "starterMessage": "**Paimon** from **Genshin Impact** [**RVC V2**] [**115 Epochs**] [**13,225 steps**]\nhttps://huggingface.co/datasets/dread1900/Paimon-GenshinImpact/resolve/main/Paimon.zip\n**Model Details**:\n**Steps**: 13,225k steps\n**Epochs**: 115\n**Dataset Size**: 1 Hour and 49 Minutes **AHHHHH**\n**BS**: 20\n**Pitch Extraction Algorithm**: Mangio-CREPE\n**Target Sample Rate**: 48K\n**Loss Value**: 35%\n\n**Note**: This model isn't done as the loss value are still dropping albeit slowly. Expect a new revision of the model. \nCredit me if being used anywhere <3<3",
+    "creator": "dreadvr",
+    "creatorID": "364078787064889355",
+    "creationTimestamp": 1690705978384,
+    "downloadURL": [
+      "https://huggingface.co/datasets/dread1900/Paimon-GenshinImpact/resolve/main/Paimon.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135127888958603274/1135127890002972763/3a5a93f305a1de6395c933539534bb70.gif",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Numi / Akuma Nihmune (RVC V2) 300 Epoch",
+    "starterMessage": "Bottomest of bottoms\n\nTrained on ~6 mins of talking\n\nRVC - V2\nmangio crepe - 64\nepochs - 300\nmade by - me\ndiscord - <@387937723719090177>\nyt - <@387937723719090177>\n\nWould be great if you can give credit if used anywhere, id love to know where it's used!\n\nAll of my models - \nhttps://huggingface.co/0x3e9/0x3e9_RVC_models\n\nThis model - \nhttps://huggingface.co/0x3e9/0x3e9_RVC_models/resolve/main/numi.zip",
+    "creator": "0x3e9",
+    "creatorID": "387937723719090177",
+    "creationTimestamp": 1690703710428,
+    "downloadURL": [
+      "https://huggingface.co/0x3e9/0x3e9_RVC_models",
+      "https://huggingface.co/0x3e9/0x3e9_RVC_models/resolve/main/numi.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135118376461664327/1135118377015320596/maxresdefault.jpg",
+    "tags": [
+      {
+        "snowflake": "1110364355700199464",
+        "name": "Anime Character",
+        "icon": "<:AnimeTagIcon:1110364151357898762>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1114434339397177374",
+        "name": "e-Celebs",
+        "icon": "🖥"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Hong Lu (Limbus Company) [RVC v2] [200 Epochs]",
+    "starterMessage": "https://huggingface.co/elecwaff/EW38VoiceModels/blob/main/Hong_Lu.zip https://drive.google.com/file/d/11bj2tzKiwpjLaKhxnr_CgnFWDPnAAVzQ/view?usp=sharing",
+    "creator": "elecwaff",
+    "creatorID": "722840680665448508",
+    "creationTimestamp": 1690701991398,
+    "downloadURL": [
+      "https://huggingface.co/elecwaff/EW38VoiceModels/blob/main/Hong_Lu.zip",
+      "https://drive.google.com/file/d/11bj2tzKiwpjLaKhxnr_CgnFWDPnAAVzQ/view?usp=sharing"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135111166327259197/1135111166654423160/hong_lu_image.png",
+    "tags": [
+      {
+        "snowflake": "1110364355700199464",
+        "name": "Anime Character",
+        "icon": "<:AnimeTagIcon:1110364151357898762>"
+      },
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Boo (1,000 Epochs RVC v2)",
+    "starterMessage": "Download link: \n<https://huggingface.co/Superss/Boo/blob/main/Boo.zip>\n\nTell me how this sounds, to me personally it sounds kinda wierd.\nThis voice model was trained off of all the voice clips in the Switch edition of Mario Party. (30 secs of data)\n\nhttps://cdn.discordapp.com/attachments/1135109797063163916/1135111267154141204/paper-mario-paper-mario64.gif",
+    "creator": ".supers.",
+    "creatorID": "581567358192320545",
+    "creationTimestamp": 1690701664940,
+    "downloadURL": [
+      "https://huggingface.co/Superss/Boo/blob/main/Boo.zip"
+    ],
+    "tags": [
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Trish Una  (JJBA: Golden Wind), RVC v2, 600 epoch, 40khz",
+    "starterMessage": "Model by me.\nLink: https://huggingface.co/PetroOne/PetroOneRVC/resolve/main/TrishUna.zip\nDataset: Samples was taken only from game \"JoJos Bizarre Adventure All-Star Battle R\". Ripped not by me. Ripped by this channel @ResourceMuseum, which channel you can find on youtube. Dataset length: 9 minutes.\nVoice Actor: Sayaka Senbongi.\nTrained using mangio-crepe (64).",
+    "creator": "petrsoyanka26",
+    "creatorID": "320926480873947146",
+    "creationTimestamp": 1690701635885,
+    "downloadURL": [
+      "https://huggingface.co/PetroOne/PetroOneRVC/resolve/main/TrishUna.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135109675197673524/1135109675520630884/00c12193af4c2d5a213670a2ba703d3081c888834a4802d525cab67eaae37033_thumb.webp",
+    "tags": [
+      {
+        "snowflake": "1110364355700199464",
+        "name": "Anime Character",
+        "icon": "<:AnimeTagIcon:1110364151357898762>"
+      },
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1121324803773702196",
+        "name": "Japanese",
+        "icon": "<:miku47:1135044469616545822>"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Stan Prokopenko/Proko (YouTuber and Professional Artist) (RVC V2) 270 Epochs",
+    "starterMessage": "# Download Here\n<https://huggingface.co/AnimeSessions/rvc_voice_models/resolve/main/ProkoRVC.zip>\n\nTrained using various speaking samples in his art critique videos at 40khz Sampling Rate using RMVPE method.",
+    "creator": "shyelijah",
+    "creatorID": "287448140372508682",
+    "creationTimestamp": 1690699809527,
+    "downloadURL": [
+      "https://huggingface.co/AnimeSessions/rvc_voice_models/resolve/main/ProkoRVC.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135102014897004565/1135102015459049564/1516493834620.jpg",
+    "tags": [
+      {
+        "snowflake": "1099150044785021019",
+        "name": "Artist",
+        "icon": "🎹"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1114434339397177374",
+        "name": "e-Celebs",
+        "icon": "🖥"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Elmer Fudd (Billy West) (Singing Voice) (RVCv2) 300 epochs",
+    "starterMessage": "https://huggingface.co/Stormthesmurfsguy/Elmer_Fudd_Singing/resolve/main/elmer-fudd-singing.zip",
+    "creator": "mrhappysack07",
+    "creatorID": "1093786855071301642",
+    "creationTimestamp": 1690699259677,
+    "downloadURL": [
+      "https://huggingface.co/Stormthesmurfsguy/Elmer_Fudd_Singing/resolve/main/elmer-fudd-singing.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135099708658950174/1135099708948353054/Elmer-fudd.webp",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Kasumi Nakasu (Love Live! Nijigasaki Gakuen School Idol Doukoukai) (RVC v2) (500 Epochs)",
+    "starterMessage": "*Made by me*\nMade from 10 minutes of dataset which was extracted from a game.\nhttps://huggingface.co/HarunaKasuga/YoshikoTsushima/resolve/main/Kasumin%20Nakasu.zip",
+    "creator": "seakrait",
+    "creatorID": "832914132067942451",
+    "creationTimestamp": 1690699028865,
+    "downloadURL": [
+      "https://huggingface.co/HarunaKasuga/YoshikoTsushima/resolve/main/Kasumin%20Nakasu.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135098740563259484/1135098741062369403/Nakasu.Kasumi.full.3309360.png",
+    "tags": [
+      {
+        "snowflake": "1110364355700199464",
+        "name": "Anime Character",
+        "icon": "<:AnimeTagIcon:1110364151357898762>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1121324803773702196",
+        "name": "Japanese",
+        "icon": "<:miku47:1135044469616545822>"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "[Ranma 1/2] Ranma Saotome (250 Epochs RVC V2)",
+    "starterMessage": "His Male Version\nhttps://huggingface.co/Cool629/RanmaPack/resolve/main/Ranma(BoyHalf).zip\n\nHis Female Version\nhttps://huggingface.co/Cool629/RanmaPack/resolve/main/Ranma(GirlHalf).zip\n\nDataset :\nIt's entirely the English Dub.\n5 Episodes of only Ranma talking.\n7 Minutes for the Male Version.\n3 Minutes for the Female Version.\n\nWould I possibly make or expand it? Yes but maybe later.",
+    "creator": "cool629",
+    "creatorID": "480828447321751552",
+    "creationTimestamp": 1690699027454,
+    "downloadURL": [
+      "https://huggingface.co/Cool629/RanmaPack/resolve/main/Ranma(BoyHalf).zip",
+      "https://huggingface.co/Cool629/RanmaPack/resolve/main/Ranma(GirlHalf).zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135098734645088278/1135098735416836166/db4p7iz-d3f634e7-2e2d-426c-b24d-660c549af1ca.gif",
+    "tags": [
+      {
+        "snowflake": "1110364355700199464",
+        "name": "Anime Character",
+        "icon": "<:AnimeTagIcon:1110364151357898762>"
+      },
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Augusto Pinochet (RVC v2) 100 epochs",
+    "starterMessage": "Works surprisingly well with female vocals, no transposition needed for it. As for lower pitched references, +12\nhttps://huggingface.co/datasets/LH6582/AugustoPinochet/resolve/main/AugustoPinochet.zip",
+    "creator": "lh658",
+    "creatorID": "449049405211934730",
+    "creationTimestamp": 1690698870703,
+    "downloadURL": [
+      "https://huggingface.co/datasets/LH6582/AugustoPinochet/resolve/main/AugustoPinochet.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135098077183750224/1135098077485748244/imagem_2023-07-30_023412740.png",
+    "tags": [
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324682735820862",
+        "name": "Espanol",
+        "icon": "🌮"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "DAY6 (RVC v1) All Members [FULL]",
+    "starterMessage": "Dataset by me <@1102102630051876924> \nTrained by me <@1102102630051876924> \nIf using this model must give me credit. Tag me on social media. Write my social media in the video description.\nTiktok : aimusicindo\nInstagram : aimusicindo\nYouTube : aimusicindo\n\nAll available Day6 member AI voice models are in one folder. \n\n➡️ Dowoon RVC v1 (300 Epoch) already available\n➡️ Jae RVC v1 (300 Epoch) already available\n➡️ Junhyeok RVC v1 (300 Epoch) already available\n➡️ Wonpil RVC v1 (300 Epoch) already available \n➡️ Sungjin RVC v1 (300 Epoch) already available \n➡️ Young K RVC v1 (300 Epoch) already available \n\nhttps://huggingface.co/tigerlili/day6modelrvcv1",
+    "creator": "tigerlili14",
+    "creatorID": "1102102630051876924",
+    "creationTimestamp": 1690696721454,
+    "downloadURL": [
+      "https://huggingface.co/tigerlili/day6modelrvcv1"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135089062580080721/1135089062961758248/IMG_20230730_125333.jpg",
+    "tags": [
+      {
+        "snowflake": "1099149952652947456",
+        "name": "RVC",
+        "icon": "<a:fire1:1104783491842977943>"
+      },
+      {
+        "snowflake": "1099150044785021019",
+        "name": "Artist",
+        "icon": "🎹"
+      },
+      {
+        "snowflake": "1107670309198372916",
+        "name": "Korean",
+        "icon": "<:drake97:1093604726836318249>"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "MeatCanyon (Yelling Voice) (RVC v2) 1260 Epochs",
+    "starterMessage": "Model:\n<https://huggingface.co/vexxed/VexxedRVC/resolve/main/Meatcanyon-Yelling-v2-48k-1260e.zip>\nSample Rate: 48k\nEpochs: 1260\nTrained with RMVPE, ~2 min. 10 sec. dataset\nhow is this not overtrained <:skull4:1093358456683106375>",
+    "creator": "xmmn",
+    "creatorID": "425403725939736586",
+    "creationTimestamp": 1690694133976,
+    "downloadURL": [
+      "https://huggingface.co/vexxed/VexxedRVC/resolve/main/Meatcanyon-Yelling-v2-48k-1260e.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135078209910751284/1135078211995308062/image.png",
+    "tags": [
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1114434339397177374",
+        "name": "e-Celebs",
+        "icon": "🖥"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Dorkly Mario (Dorkly) (RVC V2) 165 Epochs",
+    "starterMessage": "Hello there isa a me a mario now a bit recently ive became a model - totally dorkly mario https://huggingface.co/Mboisuper/Dorkly_Mario_165_Epochs/resolve/main/dorklymariobymboi.zip (also my 15th model i think yay!!!)",
+    "creator": "trys9965",
+    "creatorID": "1093021603455041606",
+    "creationTimestamp": 1690693240155,
+    "downloadURL": [
+      "https://huggingface.co/Mboisuper/Dorkly_Mario_165_Epochs/resolve/main/dorklymariobymboi.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135074460953755668/1135074462157504583/Dorkly_Thumbnail.png",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1114434339397177374",
+        "name": "e-Celebs",
+        "icon": "🖥"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "asmi (Japanese Singer) RMVPE (RVC V2) 500 Epochs",
+    "starterMessage": "Model and Dataset created by me <@274566299349155851> \n**Dataset:** 13:30\n**Extraction:** RMVPE (64)\n**Epoch:** 500\n**Link:** https://huggingface.co/Eddycrack864/asmi-AI-Voice/resolve/main/asmi.zip\n\nDo you like my models? I leave you my networks\nHugging Face: https://huggingface.co/Eddycrack864\nYoutube: https://www.youtube.com/@Eddycrack864\n\nI make low cost commissioned models send me a DM for more info!\n\nOther models made by me:\nhttps://discord.com/channels/1089076875999072296/1132347107051839558\nhttps://discord.com/channels/1089076875999072296/1133134906432696371\nhttps://discord.com/channels/1089076875999072296/1133849837222252674",
+    "creator": "eddycrack864",
+    "creatorID": "274566299349155851",
+    "creationTimestamp": 1690692565078,
+    "downloadURL": [
+      "https://huggingface.co/Eddycrack864/asmi-AI-Voice/resolve/main/asmi.zip",
+      "https://huggingface.co/Eddycrack864"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135071629475586088/1135071629731430410/Uy5HcTIrAJcJifXUt4I26XiLQvVruPxlONYr4TUqSIMshqW9bGbF7lhbBhiqsZgX4wO6WW3JreGhs0tuo4G2Jw.jpg",
+    "tags": [
+      {
+        "snowflake": "1099150044785021019",
+        "name": "Artist",
+        "icon": "🎹"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1121324803773702196",
+        "name": "Japanese",
+        "icon": "<:miku47:1135044469616545822>"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Tau Firewarrior Dawn of War (Warhammer 40k)(RVC)(250 Epochs)",
+    "starterMessage": "Made by me,\nSampled from all of the original Dawn of War games.\nLink: <https://huggingface.co/Dutchball/Tau-Firewarrior/resolve/main/Tau.zip>",
+    "creator": "sire_dutchball",
+    "creatorID": "1111448980744843294",
+    "creationTimestamp": 1690692011554,
+    "downloadURL": [
+      "https://huggingface.co/Dutchball/Tau-Firewarrior/resolve/main/Tau.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135069307827671090/1135069308083515603/tau_firewarrior.jpg",
+    "tags": [
+      {
+        "snowflake": "1099149952652947456",
+        "name": "RVC",
+        "icon": "<a:fire1:1104783491842977943>"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Shawn Mendes - RVC V2 - 300 EPOCHS",
+    "starterMessage": "**Shawn Mendes RVC V2**\n*RMVPE - 300 EPOCHS*\n\n🔗⬇️🔗\nhttps://huggingface.co/damnedraxx/ShawnMendez/resolve/main/ShawnMendez.zip\n\nTrained by me, please credit <:nails:1091517541240807424>",
+    "creator": "draxzified",
+    "creatorID": "658607697377361940",
+    "creationTimestamp": 1690691141076,
+    "downloadURL": [
+      "https://huggingface.co/damnedraxx/ShawnMendez/resolve/main/ShawnMendez.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135065656778309742/1135065656988012574/3fac3dde-cac3-41c4-8a56-89b5f792bec6.jpg",
+    "tags": [
+      {
+        "snowflake": "1099150044785021019",
+        "name": "Artist",
+        "icon": "🎹"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Raze (VALORANT) (RVC V2) [Rus Dub] [400 Epochs] +dataset",
+    "starterMessage": "mangio-crepe\ndataset 12 min\nLink: https://huggingface.co/XaZorck/Raze/resolve/main/RazeRusDub.zip\nMY other models: https://t.me/AIzorck\nCreate by: <@1071818008110051408>",
+    "creator": "nnandell",
+    "creatorID": "1071818008110051408",
+    "creationTimestamp": 1690690598465,
+    "downloadURL": [
+      "https://huggingface.co/XaZorck/Raze/resolve/main/RazeRusDub.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135063380902813887/1135063381544546324/51c07f21e6e3ac68.png",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1123794615502377090",
+        "name": "Other Languages",
+        "icon": "🌐"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1122951427522834502",
+        "name": "OG Character/Self",
+        "icon": "🙂"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Scenty / Amelia Euler (HFJONE) (RVC v2) 250 Epoch",
+    "starterMessage": "Model:\n<https://huggingface.co/k1820303/k18RVC/resolve/main/ScentyHFJONE_V2_48khz.zip>",
+    "creator": "nuggt",
+    "creatorID": "95198192018132992",
+    "creationTimestamp": 1690689146590,
+    "downloadURL": [
+      "https://huggingface.co/k1820303/k18RVC/resolve/main/ScentyHFJONE_V2_48khz.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135057291297706114/1135057296536383569/scenty-scenty-hfjone.gif",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "HAL-9000 (Enhanced) RVC v2 250 Epochs",
+    "starterMessage": "<https://huggingface.co/Mayhemical/HAL9000RVC/resolve/main/HAL-9000.zip>\n\ni trained it on all the audio from the original movie, some from the sequel 2010, and a sketch from second city television where the voice actor played hal\ni ran it through an ai enhancer so that its higher quality but you can just add the radio-like effects afterwards",
+    "creator": "mayhemical",
+    "creatorID": "528042657218297876",
+    "creationTimestamp": 1690686641625,
+    "downloadURL": [
+      "https://huggingface.co/Mayhemical/HAL9000RVC/resolve/main/HAL-9000.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135046784712974386/1135046784935276614/HAL_9000.png",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Lich King 400 Epochs RVC v2 Mangio-Crepe",
+    "starterMessage": "https://huggingface.co/Erosis/ErosisRVC/resolve/main/LichKing_v2_e400.zip\nTrained on ~13 minutes of Heroes of the Storm data. This is mostly a joke, but you can get him to \"sing\" (-11 to -14 pitch for male voice).",
+    "creator": "erosis",
+    "creatorID": "154767337843589120",
+    "creationTimestamp": 1690686025433,
+    "downloadURL": [
+      "https://huggingface.co/Erosis/ErosisRVC/resolve/main/LichKing_v2_e400.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135044200216395816/1135044200455483553/LichK.gif",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "RoomieOfficial (100 Epochs)",
+    "starterMessage": "all audio was taken from the silly funny rvc course <:fefe:874012321108856922>\nhttps://huggingface.co/hobqueer/RoomieOfficialRVCV2/resolve/main/RoomieV2.zip",
+    "creator": "hobqueer",
+    "creatorID": "671420837680775178",
+    "creationTimestamp": 1690685148736,
+    "downloadURL": [
+      "https://huggingface.co/hobqueer/RoomieOfficialRVCV2/resolve/main/RoomieV2.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135040523082666165/1135040523426603009/roomie_real.png",
+    "tags": [
+      {
+        "snowflake": "1099150044785021019",
+        "name": "Artist",
+        "icon": "🎹"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1114434339397177374",
+        "name": "e-Celebs",
+        "icon": "🖥"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Tirion Fordring 450 Epochs RVC v2 Mangio-Crepe",
+    "starterMessage": "https://huggingface.co/Erosis/ErosisRVC/resolve/main/TirionFordring_v2_e450.zip\nTrained on ~7 minutes of World of Warcraft data. Consider lowering pitch during inference because the voice is somewhat deep. He has a good yelling voice, but isn't too great of a singer.",
+    "creator": "erosis",
+    "creatorID": "154767337843589120",
+    "creationTimestamp": 1690684609873,
+    "downloadURL": [
+      "https://huggingface.co/Erosis/ErosisRVC/resolve/main/TirionFordring_v2_e450.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135038262927442000/1135038263141343333/Tirion.png",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Neeko (League of Legends) (RVC V2) 250 Epochs",
+    "starterMessage": "I trained this model over voice lines of Neeko a fictional game character from League of Legends. \n\nhttps://huggingface.co/iconical/aimodels/resolve/main/Neeko.zip\n\nSample is a song so it has reverbs but the actual voice is clean I guess 🤍",
+    "creator": "iconical",
+    "creatorID": "362301055976996864",
+    "creationTimestamp": 1690683861269,
+    "downloadURL": [
+      "https://huggingface.co/iconical/aimodels/resolve/main/Neeko.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135035123054686309/1135035123235049592/neeko.png",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Candy Cadet (FNAF 6) (RVC v2) 130 Epochs",
+    "starterMessage": "Model trained by me!\n\nWell here's the regular one, I 1000% prefer this over the other, he just sounds so much more robotic\n\nhttps://huggingface.co/Meido2/CandyCadetFNAF6/resolve/main/CandyCadetNOTSB.zip",
+    "creator": "morions_meido",
+    "creatorID": "1076797085380247553",
+    "creationTimestamp": 1690683337900,
+    "downloadURL": [
+      "https://huggingface.co/Meido2/CandyCadetFNAF6/resolve/main/CandyCadetNOTSB.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135032927885983784/1135032928234123294/Deactivated-CandyCadet.webp",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Principle Scudworth (Clone High) (RVCV2) (RMVPE) 300 epochs",
+    "starterMessage": "https://huggingface.co/IsaiahTheCreator/PrincipleScudworth/resolve/main/PrincipleScudworth.zip",
+    "creator": "freshalicious",
+    "creatorID": "899730208519753779",
+    "creationTimestamp": 1690683331234,
+    "downloadURL": [
+      "https://huggingface.co/IsaiahTheCreator/PrincipleScudworth/resolve/main/PrincipleScudworth.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135032899926765608/1135032900216176640/principal-scudworth.jpg",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Zico Tops (Youtuber) (RVC V2, Harvest) (150 Epochs)",
+    "starterMessage": "Dataset y modelo de voz hechos por mí\nDataset: 27 minutos\n\nOJO: Si lo vas a usar para cantar, asegurate de conseguir una acapella con la voz grave, para evitar distorsiones y/o efectos no deseados.                                                                                                                                                                                                                                                                                                                                       Si lo usas, no olvides darme créditos, por favor\n\nLink: https://huggingface.co/MilloXL07/ZicoTops/resolve/main/ZicoTops.zip",
+    "creator": "spongeboy07",
+    "creatorID": "778669195524571167",
+    "creationTimestamp": 1690681236335,
+    "downloadURL": [
+      "https://huggingface.co/MilloXL07/ZicoTops/resolve/main/ZicoTops.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135024113283502080/1135024113694548049/unnamed.jpg",
+    "tags": [
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Asuka Langley Soryu (Evangelion) (RVC V2) 200 Epochs",
+    "starterMessage": "trained on 10 minutes of dialogue for 200 epochs.\n\n<https://huggingface.co/datasets/marup/AsukaRVC200Epochs/tree/main>",
+    "creator": "maru_p",
+    "creatorID": "330835167595855882",
+    "creationTimestamp": 1690680951452,
+    "downloadURL": [
+      "https://huggingface.co/datasets/marup/AsukaRVC200Epochs/tree/main"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135022918397607956/1135022919123226734/260px-OP_C057_asuka.jpg",
+    "tags": [
+      {
+        "snowflake": "1110364355700199464",
+        "name": "Anime Character",
+        "icon": "<:AnimeTagIcon:1110364151357898762>"
+      },
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1121324803773702196",
+        "name": "Japanese",
+        "icon": "<:miku47:1135044469616545822>"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Imperial Guardsmen - Dawn of War (RVC) (250 Epochs)",
+    "starterMessage": "Made by me, sampled from all the original Dawn of War games.\nLink: <https://huggingface.co/Dutchball/Imperial-Guardsmen/resolve/main/ImperialGuard.zip>",
+    "creator": "sire_dutchball",
+    "creatorID": "1111448980744843294",
+    "creationTimestamp": 1690680031887,
+    "downloadURL": [
+      "https://huggingface.co/Dutchball/Imperial-Guardsmen/resolve/main/ImperialGuard.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135019061462454273/1135019062213222470/guardsmen.webp",
+    "tags": [
+      {
+        "snowflake": "1099149952652947456",
+        "name": "RVC",
+        "icon": "<a:fire1:1104783491842977943>"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Roxanne - A Goofy Movie (RVC v2) 400 Epochs",
+    "starterMessage": "To all the furries out there, what can I say except you're welcome? (help... I'm being held against my will...)\n\nTrained using rmvpe\nDataset: outstanding 1.5 minutes from the movie\nRecommended to transpose if necessary.\n\nhttps://huggingface.co/joeldabest638/RoxanneGoofyMovie/resolve/main/roxannegoofymovie.zip",
+    "creator": "joeldabest638",
+    "creatorID": "982778017518604368",
+    "creationTimestamp": 1690679665417,
+    "downloadURL": [
+      "https://huggingface.co/joeldabest638/RoxanneGoofyMovie/resolve/main/roxannegoofymovie.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135017524375867443/1135017524644290650/roxannepic.png",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Hey shitass (RVC v2) (430 epochs)",
+    "starterMessage": "<https://huggingface.co/Additioncheese128/RVCv2-tests/resolve/main/shitass.zip>\nNo pitch adjustment should be needed for male voices but around -7 - -12 should be good for female voices",
+    "creator": "addition_cheese128",
+    "creatorID": "718104381815390220",
+    "creationTimestamp": 1690679509626,
+    "downloadURL": [
+      "https://huggingface.co/Additioncheese128/RVCv2-tests/resolve/main/shitass.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135016870941040831/1135016871226265610/Screenshot_2023-07-29_205512.png",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Jimmy Álvarez (Pongamoslo a prueba) (RVC V2, Harvest) (70 Epochs)",
+    "starterMessage": "Dataset y modelo hechos por mí\nDataset: 8 Minutos\n\nSi lo usas, por favor no olvides darme créditos 😄\n\nhttps://huggingface.co/MilloXL07/JimmyPongamosloAPrueba/resolve/main/JimyPongamoslo.zip",
+    "creator": "spongeboy07",
+    "creatorID": "778669195524571167",
+    "creationTimestamp": 1690678063704,
+    "downloadURL": [
+      "https://huggingface.co/MilloXL07/JimmyPongamosloAPrueba/resolve/main/JimyPongamoslo.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135010806304620555/1135010806531096644/ZOQG6KS46JFUTNYT7F7ZSQCPVE.png",
+    "tags": [
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Candy Cadet (FNAF SB) (RVC v2) 80 Epochs",
+    "starterMessage": "Model trained by me!\n\nThe most least wanted model (just kidding, i hope), Candy Cadet...from ruin, meh I'll do pizzaria sim later, inspired from <@822575001232212088> ! Please check out their stuff, it's truly amazing\n\nhttps://huggingface.co/Meido2/CandyCadet/resolve/main/CandySB.zip",
+    "creator": "morions_meido",
+    "creatorID": "1076797085380247553",
+    "creationTimestamp": 1690677983405,
+    "downloadURL": [
+      "https://huggingface.co/Meido2/CandyCadet/resolve/main/CandySB.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135010469506191483/1135010469954994197/ddddd.webp",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Principal Cinch (My Little Pony: Equestria Girls: Friendship Games) (RVC V2) (250 Epochs)",
+    "starterMessage": "Hugginface Link:\nhttps://huggingface.co/VillainMaster/PrincipalCinch/resolve/main/Principal%20Cinch.zip\n\nDrive Link:\nhttps://drive.google.com/file/d/1eTazuX85OSjQesJwMoN-bFc_x2PiED9L/view?usp=drive_link",
+    "creator": ".katiekilljoy",
+    "creatorID": "1094257947489620098",
+    "creationTimestamp": 1690677867617,
+    "downloadURL": [
+      "https://huggingface.co/VillainMaster/PrincipalCinch/resolve/main/Principal%20Cinch.zip",
+      "https://drive.google.com/file/d/1eTazuX85OSjQesJwMoN-bFc_x2PiED9L/view?usp=drive_link"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135009983856115822/1135009984434946059/Principal_Cinch_in_pleased_anticipation_EG3.png",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "QP, from 100% Orange Juice! and QP Shooting (RVC) 50 Epochs",
+    "starterMessage": "Another model trained by me on RVC colab version, sounds good with english voices.\nIf you want to do a better version of the model, let me know!\nSoon i will bring another character model of that game!\nhttps://huggingface.co/Nater-EX99/QP_100_Orange_Juice/resolve/main/QP_100_Orange_Juice.zip",
+    "creator": "djnaterex99",
+    "creatorID": "314971391868796931",
+    "creationTimestamp": 1690677711616,
+    "downloadURL": [
+      "https://huggingface.co/Nater-EX99/QP_100_Orange_Juice/resolve/main/QP_100_Orange_Juice.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135009329540513964/1135009329855082546/109562033_p0_master1200.jpg",
+    "tags": [
+      {
+        "snowflake": "1099149952652947456",
+        "name": "RVC",
+        "icon": "<a:fire1:1104783491842977943>"
+      },
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1121324803773702196",
+        "name": "Japanese",
+        "icon": "<:miku47:1135044469616545822>"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Codsworth fallout 4 | 250 Epochs",
+    "starterMessage": "https://huggingface.co/FzzyLizzy/fallout4/resolve/main/Codsworth/Codsworth.zip",
+    "creator": "l.i.z.z.y",
+    "creatorID": "375273261250117652",
+    "creationTimestamp": 1690677033624,
+    "downloadURL": [
+      "https://huggingface.co/FzzyLizzy/fallout4/resolve/main/Codsworth/Codsworth.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135006485835943956/1135006486192472185/Codsworth01.webp",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "DAGames sampled from Left Behind - RVC v2, 200 Epochs",
+    "starterMessage": "I've gotten in trouble with Will before years ago so i'm just gonna get this out of the way now, if he wants this model taken down I ***will*** take it down and remove it from the server and my HuggingFace. If any of you reupload it and also get in trouble with him, that's your problem.\nhttps://huggingface.co/Xhepyxopila/RandomModels/resolve/main/LBDAGames.zip",
+    "creator": "xhepyxopila",
+    "creatorID": "846171289399721994",
+    "creationTimestamp": 1690675926984,
+    "downloadURL": [
+      "https://huggingface.co/Xhepyxopila/RandomModels/resolve/main/LBDAGames.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1135001844251381911/1135001844461088869/3rf3f.jpg",
+    "tags": [
+      {
+        "snowflake": "1099150044785021019",
+        "name": "Artist",
+        "icon": "🎹"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "The Mimic (FNAF SB) (RVC v2) 50 Epochs",
+    "starterMessage": "Model trained by me!\n\nNo, I'm not including the fake Gregory lines, it's the actual mimics voice when the fake voice breaks, I'm proud of this one, also at the request of <@1023278814752677918>!\n\nhttps://huggingface.co/Meido2/TheMimic/resolve/main/Mimic.zip",
+    "creator": "morions_meido",
+    "creatorID": "1076797085380247553",
+    "creationTimestamp": 1690673479834,
+    "downloadURL": [
+      "https://huggingface.co/Meido2/TheMimic/resolve/main/Mimic.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134991580160348250/1134991580445552741/Mimic_Render.webp",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Jurin (XG) [RVC v2 - MangioCrepe + 200 Epochs)",
+    "starterMessage": "Model: https://huggingface.co/elvhens/XGJurin/resolve/main/XGJurin.zip\nHope you like! 🙂 Feedback is always appreciated. Thx sm! Pls credit ❤️",
+    "creator": "elvhens",
+    "creatorID": "696629301063450664",
+    "creationTimestamp": 1690672785463,
+    "downloadURL": [
+      "https://huggingface.co/elvhens/XGJurin/resolve/main/XGJurin.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134988667757281280/1134988667887288380/Jurin_XG.jpg",
+    "tags": [
+      {
+        "snowflake": "1121324803773702196",
+        "name": "Japanese",
+        "icon": "<:miku47:1135044469616545822>"
+      },
+      {
+        "snowflake": "1107670309198372916",
+        "name": "Korean",
+        "icon": "<:drake97:1093604726836318249>"
+      },
+      {
+        "snowflake": "1099150044785021019",
+        "name": "Artist",
+        "icon": "🎹"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Salad Fingers (RVC V2) (350 Epochs)",
+    "starterMessage": "I only used the first 4 episodes as samples.\nIt turned out way better than I expected.\n\nLink:\nhttps://huggingface.co/LordSciutto/SciuttoRVC/blob/main/SaladFingers.zip\n\n(SAMPLE AUDIO BELOW.)",
+    "creator": "lordsciutto",
+    "creatorID": "1051185816417861742",
+    "creationTimestamp": 1690672183686,
+    "downloadURL": [
+      "https://huggingface.co/LordSciutto/SciuttoRVC/blob/main/SaladFingers.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134986143721590804/1134986143876792330/images_21.jpg",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Classic Match (BFDI) | (RVC v2) - 350 Epochs",
+    "starterMessage": "Model and Training done by Myself!\nLink: <https://huggingface.co/sleepster/AI-Models/resolve/main/classicMV2-350epoch.zip>",
+    "creator": "_sleepyguy.",
+    "creatorID": "957783585908195410",
+    "creationTimestamp": 1690672065257,
+    "downloadURL": [
+      "https://huggingface.co/sleepster/AI-Models/resolve/main/classicMV2-350epoch.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134985646994362449/1134985647447343225/matchStand.PNG",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Nanoha Takamachi (Mahou Shoujo Lyrical Nanoha) (RVC v2)(400 epoch)",
+    "starterMessage": "Made by me.\n\nTrained with 20 minutes of audio.\n\nModel: https://huggingface.co/POLAR1150/yes/resolve/main/TakamachiNanoha_V2_400e.zip",
+    "creator": "polar1150_",
+    "creatorID": "1134971195939373096",
+    "creationTimestamp": 1690671076548,
+    "downloadURL": [
+      "https://huggingface.co/POLAR1150/yes/resolve/main/TakamachiNanoha_V2_400e.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134981500048244776/1134981500786458746/ou.gif",
+    "tags": [
+      {
+        "snowflake": "1110364355700199464",
+        "name": "Anime Character",
+        "icon": "<:AnimeTagIcon:1110364151357898762>"
+      },
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Angry Birmingham Man [RVC V2] (150 Epochs)",
+    "starterMessage": "https://huggingface.co/AstralBlade/Model/resolve/main/Angry%20Birmingham%20Man.zip\n(Based off this meme https://youtu.be/jS94-_zy3Dg)",
+    "creator": "astrvlblade",
+    "creatorID": "874563032175489035",
+    "creationTimestamp": 1690670698422,
+    "downloadURL": [
+      "https://huggingface.co/AstralBlade/Model/resolve/main/Angry%20Birmingham%20Man.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134979914072866816/1134979914274189322/Screenshot_7945.png",
+    "tags": [
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Dave (Penguins Of Madagascar) (RVC V2) (250 Epochs)",
+    "starterMessage": "https://drive.google.com/file/d/1Uvtlh9zL3NjWkyUDCcDdYlkbAmt_kJ_b/view?usp=drive_link",
+    "creator": ".katiekilljoy",
+    "creatorID": "1094257947489620098",
+    "creationTimestamp": 1690670687980,
+    "downloadURL": [
+      "https://drive.google.com/file/d/1Uvtlh9zL3NjWkyUDCcDdYlkbAmt_kJ_b/view?usp=drive_link"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134979870275944518/1134979870947029013/image.png",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Alec Watson (Technology Connections) (American YouTuber) [RVC v2, 300 Epochs]",
+    "starterMessage": "dataset is from his 7 minute video \"Cassette adapters are remarkably simple\"\nmodel made by me\nhttps://huggingface.co/pocoraven/technologyconnections/resolve/main/alec-techconnections.zip",
+    "creator": "pocoraventhemopper",
+    "creatorID": "911679031336919112",
+    "creationTimestamp": 1690669258220,
+    "downloadURL": [
+      "https://huggingface.co/pocoraven/technologyconnections/resolve/main/alec-techconnections.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134973873427857508/1134973874061180988/Technologyconnectionsirl.webp",
+    "tags": [
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1114434339397177374",
+        "name": "e-Celebs",
+        "icon": "🖥"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "SypherPK (Ali Hassan) (RVC v2) (200 Epochs)",
+    "starterMessage": "Fortnite YouTuber SypherPK, will add more epochs!\nhttps://huggingface.co/noobnarb/SypherPK-AI/resolve/main/SypherPK.zip",
+    "creator": "noobnarb",
+    "creatorID": "1048040497714823238",
+    "creationTimestamp": 1690668948174,
+    "downloadURL": [
+      "https://huggingface.co/noobnarb/SypherPK-AI/resolve/main/SypherPK.zip"
+    ],
+    "tags": [
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1114434339397177374",
+        "name": "e-Celebs",
+        "icon": "🖥"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Space Marine (Warhammer 40K) [RVC v2] 500 Epochs",
+    "starterMessage": "Model: <https://huggingface.co/GeorgeDr/Space_MarineRVC/resolve/main/Space_marine.zip>\n\nTrained from Dawn of War 1 and 2 space marine quotes.",
+    "creator": "commander_drg",
+    "creatorID": "280728820229734400",
+    "creationTimestamp": 1690668317161,
+    "downloadURL": [
+      "https://huggingface.co/GeorgeDr/Space_MarineRVC/resolve/main/Space_marine.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134969926340333719/1134969926696833154/Space_marine.jpg",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Stan Lee (American Comic Book Writer) [RVC v2] (250 Epoch)",
+    "starterMessage": "**Model:**\n`https://huggingface.co/Animative/RVC-GUI/resolve/main/Stan-Lee.zip`\nYou can use this model without credit me\nDon't forget to use it with a lower pitch",
+    "creator": "onurdemirsoy",
+    "creatorID": "403391606348185601",
+    "creationTimestamp": 1690668239716,
+    "downloadURL": [
+      "https://huggingface.co/Animative/RVC-GUI/resolve/main/Stan-Lee.zip`"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134969601512443955/1134969601747341453/Stan_Lee.jpg",
+    "tags": [
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Vesemir (The Witcher 3: Wild Hunt) [RVC V2] (250 Epochs)",
+    "starterMessage": "Made by me.\nDownload: <https://huggingface.co/unlakin/Vesemir/resolve/main/Vesemir.zip>",
+    "creator": "unlakinn",
+    "creatorID": "707296845680083031",
+    "creationTimestamp": 1690668006450,
+    "downloadURL": [
+      "https://huggingface.co/unlakin/Vesemir/resolve/main/Vesemir.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134968623123943504/1134968623438495996/the-witcher-1024x576.jpg",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Augusto Daolio (Italian Singer/Songwriter) [RVC V2] (300 Epochs)",
+    "starterMessage": "Resta in pace Augusto.\nhttps://huggingface.co/AstralBlade/Model/resolve/main/Augusto.zip",
+    "creator": "astrvlblade",
+    "creatorID": "874563032175489035",
+    "creationTimestamp": 1690666078846,
+    "downloadURL": [
+      "https://huggingface.co/AstralBlade/Model/resolve/main/Augusto.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134960538166763610/1134960538829471774/Augusto-Daolio.png",
+    "tags": [
+      {
+        "snowflake": "1123794615502377090",
+        "name": "Other Languages",
+        "icon": "🌐"
+      },
+      {
+        "snowflake": "1099150044785021019",
+        "name": "Artist",
+        "icon": "🎹"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "Hitman (Raldi's Crackhouse) (RVC V2) 300 Epochs",
+    "starterMessage": "For the Raldi's crack house fans. the voice model you have been looking for.\nmade by yours true only, joaski\nTrained this on the characters sounds from the baldis basics mod Raldi's Crackhouse.\nhugging face link: https://huggingface.co/JoaoAiModels/HitmanFromRCH/resolve/main/Hitman.zip\nsettings and others: Mangio crepe 64 length, 300 Epochs. 40k rate and dataset origin is from the raldi's crack house mod.\nCredit me if you use this.\nSamples below.",
+    "creator": "joaoarthur.",
+    "creatorID": "701880011199873127",
+    "creationTimestamp": 1690664636794,
+    "downloadURL": [
+      "https://huggingface.co/JoaoAiModels/HitmanFromRCH/resolve/main/Hitman.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134954489762299964/1134954491398066256/image.png",
+    "tags": [
+      {
+        "snowflake": "1117999278745473104",
+        "name": "non-Voice/Other",
+        "icon": "<:skull5:1093358438878285894>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "Godrick the Grafted (RVC v2) 250 Epochs",
+    "starterMessage": "The entire Godrick the Grafted in-game dialogue trained here: https://huggingface.co/Mruizarr/Godrick-the-Grafted/resolve/main/Godrick-the-Grafted.zip\n\n**Remember to credit me as @mruizar_Soulsborne on YouTube if you use this**",
+    "creator": "mruizarr",
+    "creatorID": "401385992021606415",
+    "creationTimestamp": 1690664300247,
+    "downloadURL": [
+      "https://huggingface.co/Mruizarr/Godrick-the-Grafted/resolve/main/Godrick-the-Grafted.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134953078181855333/1134953078420947104/Godrick.png",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Rick Harrison (Pawn Stars) (RVC v2) (690 Epoches)",
+    "starterMessage": "This model is trained on RMVPE\n\nSounds better rapping and talking\n\nlink: https://huggingface.co/Hazza1/RickHarrison/resolve/main/rickharrison.zip\n\ntests below",
+    "creator": "hazza11",
+    "creatorID": "808328155222769664",
+    "creationTimestamp": 1690663982875,
+    "downloadURL": [
+      "https://huggingface.co/Hazza1/RickHarrison/resolve/main/rickharrison.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134951747027206337/1134951747677343765/pawnstars_photogallery_4_2016.jpg",
+    "tags": [
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Scott Denoga [Hailey's On It!] (RVC v2 - 250 Epochs)",
+    "starterMessage": "Trained with ~10 minutes from the show. Works well with any song sung by a male. If a song is sung by a female, pitch it down to at least -12 to make it sound like him.\n**MODEL:** https://huggingface.co/HaileyBanks/ScottDenogaHOI_RVCv2EasyGUI/resolve/main/ScottDenoga.zip\n__**PLEASE CREDIT ME (@HaileyAlohilaniBanks) ON YOUTUBE IF USE, THANKS!**__",
+    "creator": "hailey_banks",
+    "creatorID": "955950879176003604",
+    "creationTimestamp": 1690663426000,
+    "downloadURL": [
+      "https://huggingface.co/HaileyBanks/ScottDenogaHOI_RVCv2EasyGUI/resolve/main/ScottDenoga.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134949411324170246/1134949412125294802/Screenshot_714.png",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Giorgio Gaber (Italian Singer/Actor) (RVC V2) 300 Epoch",
+    "starterMessage": "https://huggingface.co/Ryanz48/RyanzRVCModels/resolve/main/GaberRVC.zip\nTrained with RMVPE.\nPotrebbe non essere super versatile perché ho usato come dataset le vocals della canzone \"Io se fossi Dio\" (dura 14 minuti quindi bastava), però l'ho caricato perché mi sembrava essere venuto bene. Spero che vi piaccia!",
+    "creator": "ryanz48",
+    "creatorID": "163197691197652992",
+    "creationTimestamp": 1690663277287,
+    "downloadURL": [
+      "https://huggingface.co/Ryanz48/RyanzRVCModels/resolve/main/GaberRVC.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134948787576651888/1134948790751723691/giorgio-gaber-03-cf-cropped-1-0-1018-768.png",
+    "tags": [
+      {
+        "snowflake": "1123794615502377090",
+        "name": "Other Languages",
+        "icon": "🌐"
+      },
+      {
+        "snowflake": "1099150044785021019",
+        "name": "Artist",
+        "icon": "🎹"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Joyce Gordon (Phone intercept messages, 8khz) | RVCv2 | 128 Epochs",
+    "starterMessage": "Trained on about 5-6 minutes of audio, all pulled from ThisIsARecording. Works best with harvest in most situations. Distortion is from source files. Better for general dictation vs singing, but a sample will be provided anyway.\n\nBest used with harvest, as crepe gives weird pitch issues (from what I tested).\n\n<https://huggingface.co/tridenT98/JoyceGordon/resolve/main/JoyceGordonV1FINAL.zip>",
+    "creator": "7rident",
+    "creatorID": "230131114671341568",
+    "creationTimestamp": 1690662882067,
+    "downloadURL": [
+      "https://huggingface.co/tridenT98/JoyceGordon/resolve/main/JoyceGordonV1FINAL.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134947129903812618/1134947130197418105/Joyce_Gordon.jpg",
+    "tags": [
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1122951427522834502",
+        "name": "OG Character/Self",
+        "icon": "🙂"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Khadgar 400 Epochs RVC v2 Mangio-Crepe",
+    "starterMessage": "https://huggingface.co/Erosis/ErosisRVC/resolve/main/Khadgar_v2_e400.zip\nTrained on ~34 minutes of World of Warcraft data. Consider lowering pitch during inference because the voice can be deep. He has a good range!",
+    "creator": "erosis",
+    "creatorID": "154767337843589120",
+    "creationTimestamp": 1690662626142,
+    "downloadURL": [
+      "https://huggingface.co/Erosis/ErosisRVC/resolve/main/Khadgar_v2_e400.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134946056476557362/1134946056744996974/giphy1.gif",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Rikoleet (RVC V2) (Youtuber) (Hugging Face link)",
+    "starterMessage": "Rikoleet (RVC V2) (Youtuber)\nhttps://huggingface.co/Player1444/AI.models/resolve/main/Rikoleet.zip",
+    "creator": "player1444",
+    "creatorID": "1081907232364564582",
+    "creationTimestamp": 1690662614069,
+    "downloadURL": [
+      "https://huggingface.co/Player1444/AI.models/resolve/main/Rikoleet.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134946005838729267/1134946006031663144/photo1686428537.jpeg",
+    "tags": [
+      {
+        "snowflake": "1123794615502377090",
+        "name": "Other Languages",
+        "icon": "🌐"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "Rina Sawayama ( RVC V2, Mangio-Crepe ) (200 epochs)",
+    "starterMessage": "https://huggingface.co/elvhens/rina200/resolve/main/Rina-Sawayama%20(1).zip\nThis is my first model! Please be kind, but feedback is always appreciated  ! < 3",
+    "creator": "elvhens",
+    "creatorID": "696629301063450664",
+    "creationTimestamp": 1690662238438,
+    "downloadURL": [
+      "https://huggingface.co/elvhens/rina200/resolve/main/Rina-Sawayama%20(1).zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134944430328139897/1134944430734983239/RIna_Sawayama_Blue.png",
+    "tags": [
+      {
+        "snowflake": "1099150044785021019",
+        "name": "Artist",
+        "icon": "🎹"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Pinky Dinky Doo (mangio-crepe) (100 epochs)",
+    "starterMessage": "https://huggingface.co/WoomyPearl/RVC-Model-Palace/resolve/main/PinkyDinkyDoo.zip\n\nDon't forget to credit me if you use it!",
+    "creator": "woomypearl",
+    "creatorID": "376106925336559616",
+    "creationTimestamp": 1690662096684,
+    "downloadURL": [
+      "https://huggingface.co/WoomyPearl/RVC-Model-Palace/resolve/main/PinkyDinkyDoo.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134943835768766574/1134943835923943474/image.png",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Barnaby B. Beagle (Welcome Home) (RVC v2) 150 Epoch",
+    "starterMessage": "Trained by me! Used 4-5 minutes of voicelines from the ARG website's videos!\nhttps://huggingface.co/JuuTetsu/RVC-Models-by-Mido/resolve/main/Barnaby-B-Beagle.zip",
+    "creator": "juutetsu",
+    "creatorID": "887387715652444242",
+    "creationTimestamp": 1690660730588,
+    "downloadURL": [
+      "https://huggingface.co/JuuTetsu/RVC-Models-by-Mido/resolve/main/Barnaby-B-Beagle.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134938105946832997/1134938106122997850/latest.png",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "EVA (Command and Conquer: Tiberium Dawn) RVCv2 | 300 Epochs",
+    "starterMessage": "Using 10 mins of voicelines from game files\nhttps://huggingface.co/Jerronimo/VoicesInMyHead/resolve/main/TS-EVA.zip",
+    "creator": "jerronimo",
+    "creatorID": "219495204904763392",
+    "creationTimestamp": 1690659838520,
+    "downloadURL": [
+      "https://huggingface.co/Jerronimo/VoicesInMyHead/resolve/main/TS-EVA.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134934364342460607/1134934364736733317/EVA_logo.png",
+    "tags": [
+      {
+        "snowflake": "1119718145247166504",
+        "name": "TTS/Realtime",
+        "icon": "🗣"
+      },
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "🇵🇭Maine Mendoza (RVCV2 RMVPE) (300 Epochs)",
+    "starterMessage": "Trained on Maine's vocals from her 3 songs. Hope you guys like it. 🧡\n\n𝐋𝐢𝐧𝐤: https://huggingface.co/RVC123/RVC/resolve/main/maine_mendoza_rmvpe_e300.zip",
+    "creator": "junjuncuti3",
+    "creatorID": "892406576885927936",
+    "creationTimestamp": 1690657774784,
+    "downloadURL": [
+      "https://huggingface.co/RVC123/RVC/resolve/main/maine_mendoza_rmvpe_e300.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134925708406312991/1134925708616007741/in_photos__iconic_fashion_moments_of_maine_glam_1648278601.png",
+    "tags": [
+      {
+        "snowflake": "1123794615502377090",
+        "name": "Other Languages",
+        "icon": "🌐"
+      },
+      {
+        "snowflake": "1099150044785021019",
+        "name": "Artist",
+        "icon": "🎹"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Vanessa (FNAF SB) (RVC v2) 200 Epochs",
+    "starterMessage": "Model trained by me!\n\nFinally, all of the FNAF SB voice models have been finished with one last, Vanessa! (also female S.T.A.F.F but just ignore them for now)\n\nhttps://huggingface.co/Meido2/VanessaSB/resolve/main/WhiteWomanJumpscare.zip",
+    "creator": "morions_meido",
+    "creatorID": "1076797085380247553",
+    "creationTimestamp": 1690656933511,
+    "downloadURL": [
+      "https://huggingface.co/Meido2/VanessaSB/resolve/main/WhiteWomanJumpscare.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134922179851595796/1134922180661084371/white-woman-jumpscare.gif",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Chef Bot (Five Nights At Freddy's: Security Breach/FNaF) RVC v2 - 260 Epochs",
+    "starterMessage": "Female Voice btw\n\nhttps://huggingface.co/VectorLua/VectorLuaModels/resolve/main/ChefBot.zip\n\nPitch Recommendations\n-16 or -17 for Female Vocals\nfor male vocals it's up to you, use whichever one you think is best",
+    "creator": "vectorlua",
+    "creatorID": "822575001232212088",
+    "creationTimestamp": 1690656862690,
+    "downloadURL": [
+      "https://huggingface.co/VectorLua/VectorLuaModels/resolve/main/ChefBot.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134921882806800514/1134921883112972349/ChefBotKRender.png",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Ryan Gosling (350 Epochs) (RVC V2 RMVPE)",
+    "starterMessage": "idk like 19 mins of talking and singing idk this new rmvpe method\nhttps://huggingface.co/bpijr/RVC-Models-by-Bryan/resolve/main/RyanGoslingv2.zip\n\nmade by <@652962039496572928> \n**dm for commissions/other inquires**\n\nhttps://www.youtube.com/watch?v=KnHlIG7yWvw",
+    "creator": "bpijr",
+    "creatorID": "652962039496572928",
+    "creationTimestamp": 1690656001489,
+    "downloadURL": [
+      "https://huggingface.co/bpijr/RVC-Models-by-Bryan/resolve/main/RyanGoslingv2.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134918270668001352/1134918271133552783/bladerunner-2-trailer-watch-8bd914b0-744f-43fe-9904-2564e9d7e15c.png",
+    "tags": [
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Shinigami ENG & JP (Rain Code) (RVC V2) - 300 epochs",
+    "starterMessage": "ENG (VA: Anjali Kunapaneni): https://huggingface.co/Jamessjunk/ShinigamiModels/blob/main/ShinigamiENG.zip\nJP (VA: Sayumi Suzushiro): https://huggingface.co/Jamessjunk/ShinigamiModels/blob/main/ShinigamiJP.zip",
+    "creator": "james1134",
+    "creatorID": "439835744761282567",
+    "creationTimestamp": 1690655815818,
+    "downloadURL": [
+      "https://huggingface.co/Jamessjunk/ShinigamiModels/blob/main/ShinigamiENG.zip",
+      "https://huggingface.co/Jamessjunk/ShinigamiModels/blob/main/ShinigamiJP.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134917491907383337/1134917493253738606/shinigami.jpg",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1121324803773702196",
+        "name": "Japanese",
+        "icon": "<:miku47:1135044469616545822>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Welcome Old Mouse (RVC V2) 250 Epochs",
+    "starterMessage": "Downloadable Link: https://huggingface.co/datonerylsguy/welcomefuckingold/resolve/main/WelcomeOldMouse.zip",
+    "creator": "ryls111",
+    "creatorID": "747988561038540831",
+    "creationTimestamp": 1690655759080,
+    "downloadURL": [
+      "https://huggingface.co/datonerylsguy/welcomefuckingold/resolve/main/WelcomeOldMouse.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134917253930963034/1134917254161641502/mqdefault.jpg",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1099150093254414358",
+        "name": "Rapper",
+        "icon": "🥶"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Stuart Ashen (ashens) - RVC v2 50 epochs",
+    "starterMessage": "dataset length: 1 hour 1 minute\nindex file is really big (597M) so be warned\n\nlink: <https://huggingface.co/EzoGaming/EzoGamingRVC/resolve/main/ashens.zip>",
+    "creator": "ezogaming",
+    "creatorID": "158418656861093888",
+    "creationTimestamp": 1690655412896,
+    "downloadURL": [
+      "https://huggingface.co/EzoGaming/EzoGamingRVC/resolve/main/ashens.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134915801930022952/1134915802160705707/Sega_Mega_Drive___Genesis_Retrospective_Extravaganza_0-2_screenshot.png",
+    "tags": [
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Mina Beff (Grojband) (mangio-crepe) (100 epochs)",
+    "starterMessage": "https://huggingface.co/WoomyPearl/RVC-Model-Palace/resolve/main/MinaBeff.zip\n\nDon't forget to credit me if you use it!",
+    "creator": "woomypearl",
+    "creatorID": "376106925336559616",
+    "creationTimestamp": 1690654964279,
+    "downloadURL": [
+      "https://huggingface.co/WoomyPearl/RVC-Model-Palace/resolve/main/MinaBeff.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134913920293945466/1134913920780472511/mina.png",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "Donna Summer RVC v2 220 Epoch",
+    "starterMessage": "10 mins dataset from stems (Hot Stuffs+MacArthur park)\nRMVPE training\nLink: https://huggingface.co/johnathan32992/DonnaSummerRVCv2/resolve/main/DonnaSummer.zip",
+    "creator": "32992",
+    "creatorID": "899542457052700722",
+    "creationTimestamp": 1690654008400,
+    "downloadURL": [
+      "https://huggingface.co/johnathan32992/DonnaSummerRVCv2/resolve/main/DonnaSummer.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134909911046824096/1134909911885693029/donna.png",
+    "tags": [
+      {
+        "snowflake": "1099150044785021019",
+        "name": "Artist",
+        "icon": "🎹"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Poppy (League of Legends) - RVC v2 | 200 Epochs",
+    "starterMessage": "I used 5 minutes of isolated in game lines to train this model. Pitch extracted with mangio-crepe.\nModel Link: https://huggingface.co/AyyMann/AyyMannAI/resolve/main/PoppyTheKeeperOfTheHammer.zip",
+    "creator": "ayymann",
+    "creatorID": "330723705384861699",
+    "creationTimestamp": 1690653921422,
+    "downloadURL": [
+      "https://huggingface.co/AyyMann/AyyMannAI/resolve/main/PoppyTheKeeperOfTheHammer.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134909546234658947/1134909548835123259/Poppy.jpg",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Liquid Chris (CChanSonichuCWC) + RVC v2 + 300 Epochs",
+    "starterMessage": "I know someone else already made a model on this but I used more samples to make it sound more accurate (no offense to the other creator, their voice model also sounds good)\n\nThis was trained on 3 minutes of data and I used the first ever Liquid Chris video for it.\n\nLink: https://huggingface.co/REDACTEDREDACT/CChanSonichuCWC/resolve/main/CChanSonichuCWC.zip",
+    "creator": "redacted_redact",
+    "creatorID": "886661172584132608",
+    "creationTimestamp": 1690653913176,
+    "downloadURL": [
+      "https://huggingface.co/REDACTEDREDACT/CChanSonichuCWC/resolve/main/CChanSonichuCWC.zip"
+    ],
+    "tags": [
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1114434339397177374",
+        "name": "e-Celebs",
+        "icon": "🖥"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Lamia (Punishing Gray Raven EN) (RVC v2) (250 Epochs) (RMVPE)",
+    "starterMessage": "I used 15 minutes of 320kbps mp3 voicelines ripped from the game to train.\nhttps://huggingface.co/daibi1998/RVC_v2_Punishing_Gray_Raven/resolve/main/LamiaEN_RVC_v2_RMVPE_250e.zip\nLamia is a character from Punishing Gray Raven. She used to be a cowardly and shy person, but after she gone through a massive character development in a chapter, she found her bravery and will now face the problems head-on for those she care about.\nHer legs was shattered by an accident from her birth, so she was more used to her mechanical bipedal legs that can transform into a mermaid tail. But now she has a real pair of legs, and she is clumsy with it. She can freely transform between mermaid and legs from.\n \"I'm tired of running away and being scared and nervous!\"\nShe has become the best and most beautiful character in Punishing Gray Raven, a mermaid princess from fairytale like she wanted. Praise the fish!",
+    "creator": "daibi1998",
+    "creatorID": "208477905225777152",
+    "creationTimestamp": 1690652927488,
+    "downloadURL": [
+      "https://huggingface.co/daibi1998/RVC_v2_Punishing_Gray_Raven/resolve/main/LamiaEN_RVC_v2_RMVPE_250e.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134905377373294675/1134905378757410929/Cg3901_42.png",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Homyatol (Italian Twitch Streamer) (RVC V2) 300 Epoch",
+    "starterMessage": "https://huggingface.co/Ryanz48/RyanzRVCModels/resolve/main/HomyatolRVC.zip\n40k, pitch extraction done with RMVPE, this mainly works with speech but you can try it on singing.\nThe audio is not very clean but it's the best I could find from his livestreams (no professional mic recordings that were easily available), I hope you enjoy the model!",
+    "creator": "ryanz48",
+    "creatorID": "163197691197652992",
+    "creationTimestamp": 1690652466849,
+    "downloadURL": [
+      "https://huggingface.co/Ryanz48/RyanzRVCModels/resolve/main/HomyatolRVC.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134903445313290422/1134903445493665922/homyatol.png",
+    "tags": [
+      {
+        "snowflake": "1123794615502377090",
+        "name": "Other Languages",
+        "icon": "🌐"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1114434339397177374",
+        "name": "e-Celebs",
+        "icon": "🖥"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "title": "Orisa Overwatch (Italian Dub) (RVC V2) 300 Epoch",
+    "starterMessage": "Download Link: https://huggingface.co/Kakao111/Orisa/resolve/main/Orisa.zip",
+    "creator": "chocokakao",
+    "creatorID": "343112824127488001",
+    "creationTimestamp": 1690651420465,
+    "downloadURL": [
+      "https://huggingface.co/Kakao111/Orisa/resolve/main/Orisa.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134899056460709899/1134899056884322325/unnamed_42d6f2ac-f181-425a-ac2f-8625b95994c8.jpg",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1123794615502377090",
+        "name": "Other Languages",
+        "icon": "🌐"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Aoba (Dramatical Murder) (RVC v2) 340 Epoch",
+    "starterMessage": "Made by me \nTrained using lines from Dramatical Murder and Dramatical Murder Re:Connect\nhttps://huggingface.co/ClearRabbitt/DMMD-Aoba/blob/main/DMMD-AobaSeragaki.zip\nMoonlight is a duet with Aoba and my Clear AI 🙂",
+    "creator": "clearrabbitt",
+    "creatorID": "280538392012390411",
+    "creationTimestamp": 1690651283819,
+    "downloadURL": [
+      "https://huggingface.co/ClearRabbitt/DMMD-Aoba/blob/main/DMMD-AobaSeragaki.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134898483325837362/1134898484055638078/tumblr_mq78d9P2TL1qcff4ao1_1280.jpg",
+    "tags": [
+      {
+        "snowflake": "1110364355700199464",
+        "name": "Anime Character",
+        "icon": "<:AnimeTagIcon:1110364151357898762>"
+      },
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "title": "Slappy Squirrel (Animaniacs) (RVC v2) 150 Epochs, Harvest",
+    "starterMessage": "I hope Sherri Stoner (VA and creator of Slappy) and her lawsuits didn't drop on me giant anvil for that... ._.\n\nhttps://huggingface.co/hoffmaninai/slappysquirrel/resolve/main/SlappySquirrel.zip",
+    "creator": "hoffmadness",
+    "creatorID": "1089849694550765598",
+    "creationTimestamp": 1690650768856,
+    "downloadURL": [
+      "https://huggingface.co/hoffmaninai/slappysquirrel/resolve/main/SlappySquirrel.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134896323414470876/1134896323653550110/DxnLvUZBFJ0.png",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Clear (Dramatical Murder) (RVC v2) 370 & 500 Epoch",
+    "starterMessage": "Made by me\nTrained using lines from Dramatical Murder, Dramatical Murder Re:Connect, all of his drama CDs, his birthday CD and his song クラゲの歌\nhttps://huggingface.co/ClearRabbitt/Clear/blob/main/DMMD-Clear.zip",
+    "creator": "clearrabbitt",
+    "creatorID": "280538392012390411",
+    "creationTimestamp": 1690649691621,
+    "downloadURL": [
+      "https://huggingface.co/ClearRabbitt/Clear/blob/main/DMMD-Clear.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134891805163397181/1134891806287462510/576993.jpg",
+    "tags": [
+      {
+        "snowflake": "1110364355700199464",
+        "name": "Anime Character",
+        "icon": "<:AnimeTagIcon:1110364151357898762>"
+      },
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1121324803773702196",
+        "name": "Japanese",
+        "icon": "<:miku47:1135044469616545822>"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Nick Valentine (Fallout 4) (RVC V2) [mangio-crepe 500 epochs]",
+    "starterMessage": "Download:\nhttps://huggingface.co/puro-changed/rvc_models/resolve/main/fo4nickvalentine.zip\ntrained on nick valentine voice lines\ncredits to Bethesda and his voice actor Stephen Russell",
+    "creator": "furbaj",
+    "creatorID": "733556974691811402",
+    "creationTimestamp": 1690648699210,
+    "downloadURL": [
+      "https://huggingface.co/puro-changed/rvc_models/resolve/main/fo4nickvalentine.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134887642689978509/1134887643008749628/th-2923951310.jpg",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "Min Kyunghoon (BUZZ - 2003) (RVCv2) 250 Epochs",
+    "starterMessage": "Made by me https://huggingface.co/dbstjrdus/MinKyungHoon2003RVCv2/resolve/main/min2003.zip",
+    "creator": "yoonwoohyun",
+    "creatorID": "918925504181067816",
+    "creationTimestamp": 1690648181899,
+    "downloadURL": [
+      "https://huggingface.co/dbstjrdus/MinKyungHoon2003RVCv2/resolve/main/min2003.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134885472930377769/1134885473169445014/32889_in013_1.jpg",
+    "tags": [
+      {
+        "snowflake": "1099150044785021019",
+        "name": "Artist",
+        "icon": "🎹"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1107670309198372916",
+        "name": "Korean",
+        "icon": "<:drake97:1093604726836318249>"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "Burntrap (FNAF SB) (RVC v2) 130 Epochs",
+    "starterMessage": "Model trained by me!\n\nFrom the deep, dark abyss of...the game files, here comes Burntrap!\n\nhttps://huggingface.co/Meido2/Burntrap/resolve/main/Burntrap.zip",
+    "creator": "morions_meido",
+    "creatorID": "1076797085380247553",
+    "creationTimestamp": 1690647739414,
+    "downloadURL": [
+      "https://huggingface.co/Meido2/Burntrap/resolve/main/Burntrap.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134883617013764116/1134883617227669524/BurntrapOPRender.webp",
+    "tags": [
+      {
+        "snowflake": "1110363117415825569",
+        "name": "Fictional Character",
+        "icon": "<:vibe:1093342228149190737>"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1108324567069495326",
+        "name": "English",
+        "icon": "🍵"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "Nancy (From Momoland) Speaking Voice (RVC v2) 300 epochs",
+    "starterMessage": "https://huggingface.co/SanaIsGay/Models/resolve/main/Nancy.zip\nThis was a commission I did but I was given permission to post it here. This is based off of her speaking voice, however it does work with singing but sounds like she's singing with her talking voice if that makes sense. Please credit @SanaIsGay on youtube if you use 🙂",
+    "creator": ".iamconfusion",
+    "creatorID": "762388946897993779",
+    "creationTimestamp": 1690647300411,
+    "downloadURL": [
+      "https://huggingface.co/SanaIsGay/Models/resolve/main/Nancy.zip"
+    ],
+    "illustrationURL": "https://cdn.discordapp.com/attachments/1134881775701737594/1134881776045654096/Nancyyyy.jpg",
+    "tags": [
+      {
+        "snowflake": "1099150044785021019",
+        "name": "Artist",
+        "icon": "🎹"
+      },
+      {
+        "snowflake": "1111460697482723388",
+        "name": "RVC v2",
+        "icon": "<a:purplefire:1093313432889085952>"
+      },
+      {
+        "snowflake": "1107670309198372916",
+        "name": "Korean",
+        "icon": "<:drake97:1093604726836318249>"
+      }
+    ]
+  }
+]

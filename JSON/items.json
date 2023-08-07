@@ -1,0 +1,79 @@
+{
+    "SVC": {
+        "name": "SVC Models",
+        "keyName": "SVC",
+        "aliases": ["svc", "svc model", "svc models"],
+        "worth": 200
+    },
+    "RIAA": {
+        "name": "RIAA Subpoenas",
+        "keyName": "RIAA",
+        "aliases": ["riaa", "riaa subpoena", "riaa subpoenas"],
+        "worth": 200
+    },
+    "Shittium_Pickaxe": {
+        "name": "Shittium Pickaxe",
+        "keyName": "Shittium_Pickaxe",
+        "aliases": ["shittium pickaxe", "shittium pick", "spick"],
+        "equippable": true,
+        "type": "Pickaxe"
+    },
+    "Opium_Pickaxe": {
+        "name": "Opium Pickaxe",
+        "keyName": "Opium_Pickaxe",
+        "aliases": ["opium pickaxe", "opium pick", "opick"],
+        "equippable": true,
+        "type": "Pickaxe"
+    },
+    "Ballinine_Pickaxe": {
+        "name": "Ballinine Pickaxe",
+        "keyName": "Ballinine_Pickaxe",
+        "aliases": ["ballinine pickaxe", "ballinine pick", "bpick"],
+        "equippable": true,
+        "type": "Pickaxe"
+    },
+    "Kysine_Pickaxe": {
+        "name": "Kysine Pickaxe",
+        "keyName": "Kysine_Pickaxe",
+        "aliases": ["kysine pickaxe", "kysine pick", "kpick"],
+        "equippable": true,
+        "type": "Pickaxe"
+    },
+    "Tetoine_Pickaxe": {
+        "name": "Tetoine Pickaxe",
+        "keyName": "Tetoine_Pickaxe",
+        "aliases": ["tetoine pickaxe", "tetoine pick", "tpick"],
+        "equippable": true,
+        "type": "Pickaxe"
+    },
+    "Shittium": {
+        "name": "Shittium",
+        "keyName": "Shittium",
+        "aliases": ["shittium"],
+        "worth": 10
+    },
+    "Opium": {
+        "name": "Opium",
+        "keyName": "Opium",
+        "aliases": ["opium"],
+        "worth": 20
+    },
+    "Ballinine": {
+        "name": "Ballinine",
+        "keyName": "Ballinine",
+        "aliases": ["ballinine"],
+        "worth": 50
+    },
+    "Kysine": {
+        "name": "Kysine",
+        "keyName": "Kysine",
+        "aliases": ["kysine"],
+        "worth": 70
+    },
+    "Tetoine": {
+        "name": "Tetoine",
+        "keyName": "Tetoine",
+        "aliases": ["tetoine"],
+        "worth": 100
+    }
+}
