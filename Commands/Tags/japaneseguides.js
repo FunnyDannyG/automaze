@@ -1,3 +1,5 @@
+const { EmbedBuilder } = require('discord.js');
+
 module.exports = {
     name: 'japaneseguides',
     category: 'Tags',
