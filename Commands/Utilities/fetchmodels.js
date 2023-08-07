@@ -16,6 +16,10 @@ module.exports = {
      * @param {String} prefix 
      */
     run: async (client, message, args, prefix) => {
+        if (message.author.id !== '707400633451282493') {
+          return;
+        }
+      
         class Extractor {
             static extractDownloadLinks(text) {
                 if (!text) {
