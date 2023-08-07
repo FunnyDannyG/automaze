@@ -1,7 +1,7 @@
 const Enmap = require("enmap");
 const documents = require(`./JSON/models.json`);
 const miniSearch = require('minisearch');
-// require('dotenv').config()
+// require('dotenv').config();
 
 const express = require("express");
 const app = express();
@@ -52,8 +52,7 @@ client.epochs = new Enmap({name: 'epochs'});
 
 client.use = new Discord.Collection();
 
-client.doxxIp = new Discord.Collection();
-client.doxxAddress = new Discord.Collection();
+client.doxx = new Discord.Collection();
 
 client.prefix = new Enmap({name: 'prefix'});
 client.modelSearchEngine = new miniSearch({
