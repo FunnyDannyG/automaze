@@ -34,7 +34,11 @@ Database folders by default are gitignored, so you have to either disable comman
 
 By default, automaze's token is not included (duh). Read `index.js` for more information.
 
-If you encounter an error of the bot not finding `models.json`, replace the code with `_models.json`
+If you encounter an error of the bot not finding `models.json`, replace the code with `_models.json` on line 2
+
+```js
+const documents = require(`./JSON/_models.json`);
+```
 
 ***
 # Thank you for coming to my TED talk
