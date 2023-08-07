@@ -2,6 +2,8 @@
 data/
 JSON/
 node_modules/
+.replit
+replit.nix
 
 # git remote add origin https://github.com/DeprecatedTable/automaze-bot.git
 # git branch -M main
