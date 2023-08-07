@@ -63,4 +63,4 @@ client.modelSearchEngine.addAll(documents);
     require(`./Handlers/${handler}`)(client, Discord);
 });
 
-client.login(process.env.token);
+client.login(process.env.token); // Import dotenv and make your own env file with the token in it
