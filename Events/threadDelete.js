@@ -18,7 +18,7 @@ module.exports.run = async (client, deletedThread) => {
         if (parsedArray.filter(i => i.title === deletedThread.name).length) { 
             parsedArray = parsedArray.filter(i => i.title !== deletedThread.name);
             fs.writeFileSync(`${process.cwd()}/JSON/models.json`, JSON.stringify(parsedArray));
-            client.modelSearchEngine.discard(parsedArray.filter(i => i.title === deletedThread.name)[0]);
+            client.modelSearchEngine.discard(parsedArray.filter(i => i.title === deletedThread.name)[0].id);
         }
     }
 }
