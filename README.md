@@ -26,9 +26,14 @@ There are too many to list here, but by and large this would not have been possi
 
 ***
 # Installation and setup
-automaze uses a variety of packages. They are all listed in `package.json`, to install them simply do `npm i`.
+
+Automaze uses a variety of packages. They are all listed in `package.json`, to install them simply do `npm i`.
 
 If you run this locally, you don't need to install express and setup. Read `index.js` for more information.
+
+Make sure you have both **SERVER MEMBER INTENT** and **MESSAGE CONTENT INTENT** enabled in the bot developer portal
+
+![intents](https://github.com/RayTracerGC/automaze/assets/141577659/a49ce3a2-f046-4423-a27e-7c796902699a)
 
 Database folders by default are gitignored, so you have to either disable commands that use database-related stuff or set it up yourself. `enmap` is the database I use, but you can switch it into other db (provided to edit the code accordingly).
 
