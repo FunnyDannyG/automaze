@@ -11,7 +11,7 @@ The creator of the bot. He has absolutely zero damn knowledge of computer scienc
 
 Without the help of his friends and collaborators, he could not stand where he is today.
 
-If you want him to NOT be dependent on his mommy and daddy, you could [buy him a coffee to cure his decaffeination](https://ko-fi.com/fungusdesu).
+If you want him to NOT be dependent on his mommy and daddy, you could <a href="https://ko-fi.com/fungusdesu" target="_blank">buy him a coffee to cure his decaffeination</a>
 
 ***
 # Credits
