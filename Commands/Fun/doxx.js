@@ -22,7 +22,7 @@ module.exports = {
             return void message.reply(`no member to doxx provided`)
         }
 
-        const [ip, ipv6, mac, address] = client.doxxIp.ensure(member.user.id, () => [chance.ip(), chance.ipv6(), chance.mac_address(), chance.address()]);
+        const [ip, ipv6, mac, address] = client.doxx.ensure(member.user.id, () => [chance.ip(), chance.ipv6(), chance.mac_address(), chance.address()]);
 
         const fetchingEmbed = new EmbedBuilder()
         .setTitle(`⏳ Fetching...`)
