@@ -1,3 +1,10 @@
+# BEFORE FORKING
+This project uses enmap, which is dependent on better-sqlite3. For some reason, better-sqlite3 only works in node v16, not v18. Before you fork, **make sure you are using node v16.20.1**.
+
+v16.20.1 can be downloaded [https://nodejs.org/en/blog/release/v16.20.1 ](here).
+
+In the event of you forked before reading, download node v16.20.1, delete `node_modules` folder and `package-lock.json` and do `npm i`
+
 # automaze
 
 General-purpose bot, primarily made for AI Hub. Its most notable features are models search engine and game.
