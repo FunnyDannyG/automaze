@@ -98,16 +98,9 @@ module.exports = {
         } catch {
             reference = message.content.split(' ').slice(1).join(' ');
         }
-        try {
-            if (reference.toLowerCase().includes('nigger') ||
-                reference.toLowerCase().includes('faggot')) {
-                return void message.reply("YOU'RE LITERALLY AS VALUABLE AS A SUMMER ANT");
-            }
-        } catch {
-            if (reference.content.toLowerCase().includes('nigger') ||
-                reference.content.toLowerCase().includes('faggot')) {
-                return void message.reply("YOU'RE LITERALLY AS VALUABLE AS A SUMMER ANT");
-            }
+        if (reference.toLowerCase().includes('nigger') ||
+            reference.toLowerCase().includes('faggot')) {
+            return void message.reply("YOU'RE LITERALLY AS VALUABLE AS A SUMMER ANT");
         }
 
         if (!reference) {
@@ -116,8 +109,8 @@ module.exports = {
 
         const regex = /\<(.*?)\>/;
         const deslang = regex.exec(reference);
-        const contentInBrackets = deslang ? deslang[1] : ''
-        const input = languages.find(language => language.names.includes(contentInBrackets.toLowerCase()))?.lang
+        const contentInBrackets = deslang ? deslang[1] : '';
+        const input = languages.find(language => language.names.includes(contentInBrackets.toLowerCase()))?.lang;
 
         if (!input && contentInBrackets) {
             return void message.reply(`cannot find specified language`);
@@ -132,15 +125,13 @@ module.exports = {
             prompt = `the following sentence is in an arbitrary language. translate it to english. the output should ONLY have the actual translation.\nDo not include anything that is not part of the translation.\nif there is a word that is inappropriate, censor it with hashes (for example f###).\nshow the full actual translation, including the censored words.\n\n"${reference}"`;
         }
 
-        console.log(prompt);
-
         const options = {
             model: 'text-davinci-002',
             prompt,
         };
 
         const response = await openAIInstance.createCompletion(options);
-        
+
         if (response.data.choices[0].text.toLowerCase().includes('nigger') ||
             response.data.choices[0].text.toLowerCase().includes('faggot')) {
             return void message.reply("YOU'RE LITERALLY AS VALUABLE AS A SUMMER ANT");

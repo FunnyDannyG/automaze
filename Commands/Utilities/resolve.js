@@ -34,7 +34,7 @@ module.exports = {
             const approvedEmbed = new EmbedBuilder()
             .setTitle(`This thread has been approved!`)
             .setColor(`Green`)
-            .setDescription(`${message.author.username} has found the suggestion contributive and approved it. The suggestion is now being considered and is likely to be put into motion. This thread will be archived in 3 seconds.`)
+            .setDescription(`${message.author.username} has found the suggestion contributive and approved it. The suggestion is now being considered and is likely to be put into motion. This thread will be archived in 3 seconds.`);
 
             const DMEmbed = new EmbedBuilder()
             .setTitle(`Your thread has been approved!`)
