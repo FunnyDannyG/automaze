@@ -22,8 +22,7 @@ module.exports = {
             return void message.reply(`no member to doxx provided`)
         }
 
-        const ip = client.doxxIp.ensure(member.user.id, () => chance.ip());
-        const address = client.doxxAddress.ensure(member.user.id, () => chance.address());
+        const [ip, ipv6, mac, address] = client.doxxIp.ensure(member.user.id, () => [chance.ip(), chance.ipv6(), chance.mac_address(), chance.address()]);
 
         const fetchingEmbed = new EmbedBuilder()
         .setTitle(`⏳ Fetching...`)
@@ -33,7 +32,7 @@ module.exports = {
 
         const foundEmbed = new EmbedBuilder()
         .setTitle(`✅ Found!`)
-        .setDescription(`**IP**: ${ip}\n**Address (not exact)**: ${address}`)
+        .setDescription(`**IP**: ${ip}\n**IPv6**: ${ipv6}\n**MAC Address**: ${mac}\n**Address (not exact)**: ${address}`)
         .setColor(`Green`);
         
         setTimeout(async () => {
