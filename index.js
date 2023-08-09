@@ -32,6 +32,7 @@ const client = new Discord.Client({
 });
 
 client.commands = new Discord.Collection();
+client.slashCommands = new Discord.Collection();  // slash commands bruh
 
 client.snipes = new Discord.Collection();
 client.esnipes = new Discord.Collection();
@@ -62,54 +63,10 @@ client.modelSearchEngine = new miniSearch({
 
 client.modelSearchEngine.addAll(documents);
 
-[`commandHandler`, `eventHandler`, `processHandler`].forEach(handler => {
+[`commandHandler`, `eventHandler`, `processHandler`, `slashCommandHandler`].forEach(handler => {
     require(`./Handlers/${handler}`)(client, Discord);
 });
 
-// slash commands bruh
-client.slashCommands = new Discord.Collection();
-
-const fs = require('node:fs');
-const path = require('node:path');
-
-const foldersPath = path.join(__dirname, 'Commands');
-const commandFolders = fs.readdirSync(foldersPath);
-
-for (const folder of commandFolders) {
-	const commandsPath = path.join(foldersPath, folder);
-	const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('Slash.js'));
-	for (const file of commandFiles) {
-		const filePath = path.join(commandsPath, file);
-		const command = require(filePath);
-		// Set a new item in the Collection with the key as the command name and the value as the exported module
-		if ('data' in command && 'execute' in command) {
-			client.slashCommands.set(command.data.name, command);
-		} else {
-			console.log(`[WARNING] The command at ${filePath} is missing a required "data" or "execute" property.`);
-		}
-	}
-}
-
-client.on(Discord.Events.InteractionCreate, async interaction => {
-    if (!interaction.isChatInputCommand()) return;
-	
-    const command = interaction.client.slashCommands.get(interaction.commandName);
-
-	if (!command) {
-		console.error(`No command matching ${interaction.commandName} was found.`);
-		return;
-	}
-
-	try {
-		await command.execute(interaction);
-	} catch (error) {
-		console.error(error);
-		if (interaction.replied || interaction.deferred) {
-			await interaction.followUp({ content: 'There was an error while executing this command!', ephemeral: true });
-		} else {
-			await interaction.reply({ content: 'There was an error while executing this command!', ephemeral: true });
-		}
-	}
-});
-
-client.login(process.env.token); // Import dotenv and make your own env file with the token in it
+// Add your bot token in the token variable in the .env file (create it if it doesn't exist)
+// Then use dotenv to read the token from that file
+client.login(process.env.token);
