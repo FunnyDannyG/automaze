@@ -167,7 +167,7 @@ module.exports = {
 
                 updateScroll();
 
-                i.update({ embeds: [updatedEmbed(allResults)], components: [GUI, sortDropdownGUI] });
+                i.update({ embeds: [updatedEmbed(allResults)], components: [GUI, sortDropdownGUI] }).catch(() => console.log(`fail`));
             }
 
             if (i.customId === 'right') {
@@ -176,7 +176,7 @@ module.exports = {
 
                 updateScroll();
 
-                i.update({ embeds: [updatedEmbed(allResults)], components: [GUI, sortDropdownGUI] });
+                i.update({ embeds: [updatedEmbed(allResults)], components: [GUI, sortDropdownGUI] }).catch(() => console.log(`fail`));
             }
 
             if (i.customId === 'order') {
@@ -187,7 +187,7 @@ module.exports = {
                 changeSortOrder(allResults, order, attributeToSortBy);
                 results = getSubarrayByPage(allResults, page);
 
-                i.update({ embeds: [updatedEmbed(allResults)], components: [GUI, sortDropdownGUI] });
+                i.update({ embeds: [updatedEmbed(allResults)], components: [GUI, sortDropdownGUI] }).catch(() => console.log(`fail`));
             }
 
             if (i.customId === 'settings') {
@@ -278,7 +278,7 @@ module.exports = {
 
                     displayAttribute = 'R';
 
-                    i.update({ embeds: [updatedEmbed(resultEmbed)], components: [GUI, sortDropdownGUI] });
+                    i.update({ embeds: [updatedEmbed(resultEmbed)], components: [GUI, sortDropdownGUI] }).catch(() => console.log(`fail`));
                 }
 
                 if (i.values[0] === 'date') {
@@ -290,7 +290,7 @@ module.exports = {
 
                     displayAttribute = 'D';
 
-                    i.update({ embeds: [updatedEmbed(resultEmbed)], components: [GUI, sortDropdownGUI] });
+                    i.update({ embeds: [updatedEmbed(resultEmbed)], components: [GUI, sortDropdownGUI] }).catch(() => console.log(`fail`));
                 }
 
                 if (i.values[0] === 'alphabet') {
@@ -302,7 +302,7 @@ module.exports = {
 
                     displayAttribute = 'A';
 
-                    i.update({ embeds: [updatedEmbed(resultEmbed)], components: [GUI, sortDropdownGUI] });
+                    i.update({ embeds: [updatedEmbed(resultEmbed)], components: [GUI, sortDropdownGUI] }).catch(() => console.log(`fail`));
                 }
             }
         });
