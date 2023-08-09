@@ -32,6 +32,7 @@ const client = new Discord.Client({
 });
 
 client.commands = new Discord.Collection();
+client.slashCommands = new Discord.Collection();  // slash commands bruh
 
 client.snipes = new Discord.Collection();
 client.esnipes = new Discord.Collection();
@@ -62,8 +63,10 @@ client.modelSearchEngine = new miniSearch({
 
 client.modelSearchEngine.addAll(documents);
 
-[`commandHandler`, `eventHandler`, `processHandler`].forEach(handler => {
+[`commandHandler`, `eventHandler`, `processHandler`, `slashCommandHandler`].forEach(handler => {
     require(`./Handlers/${handler}`)(client, Discord);
 });
 
-client.login(process.env.token); // Import dotenv and make your own env file with the token in it
+// Add your bot token in the token variable in the .env file (create it if it doesn't exist)
+// Then use dotenv to read the token from that file
+client.login(process.env.token);
