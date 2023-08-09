@@ -1,5 +1,3 @@
-const { Events } = require('discord.js');
-
 module.exports.run = async (client, interaction) => {
     if (!interaction.isChatInputCommand()) return;
 
