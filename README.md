@@ -52,9 +52,9 @@ If you encounter an error of the bot not finding `models.json`, replace the code
 const documents = require(`./JSON/_models.json`);
 ```
 
-To register the slash commands on a discord server (guild), put the guild ID in the `.env` file **guildId** variable
+By default, `deploy-commands.js` will deploy slash commands globally. To deploy this in specific guild, tweaks your code accordingly.
 
-You will also need your bot client id
+You will also need your bot client id.
 
 Example:
 
