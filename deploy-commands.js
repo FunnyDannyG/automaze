@@ -1,9 +1,10 @@
 /*
-In the .env file, add both the id of the guild where the slash command will be registered and the bot client secret
-*/
+In the .env file, add both the id where the slash command will be registered and the bot client secret.
+If you are going to run this locally, un-comment dotenv import and config.
 
 const dotenv = require('dotenv');
 dotenv.config();
+*/
 
 const clientId = process.env.clientId;
 const token = process.env.token;
