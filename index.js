@@ -40,6 +40,7 @@ client.esnipes = new Discord.Collection();
 client.banana = new Enmap({name: 'banana'});
 client.bananaCD = new Enmap();
 client.scourCD = new Enmap();
+client.deprecationCD = new Discord.Collection();
 
 client.items = new Enmap({name: 'items'});
 client.currencies = new Enmap({name: 'currencies'});

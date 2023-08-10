@@ -28,6 +28,16 @@ module.exports.run = (client, message, args) => {
             return;
         } // If can't find then do nothing
 
+        if (client.slashCommands.get(commandName) && (!client.deprecationCD.get(message.author.id) || Date.now() - client.deprecationCD.get(message.author.id) >= 300000)) {
+            const deprecationEmbed = new EmbedBuilder()
+            .setTitle(`Deprecation warning!`)
+            .setDescription(`Due to the need for verification, we are migrating from traditional prefix commands to a more user-friendly slash commands.\n **Please use the slash counterpart of this command, \`/${commandName}\`**`)
+            .setColor(`Yellow`)
+
+            message.channel.send({embeds: [deprecationEmbed]});
+            client.deprecationCD.set(message.author.id, Date.now());
+        }
+
         command.run(client, message, args, prefix);
     }
 }
