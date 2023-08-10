@@ -20,9 +20,9 @@ module.exports = {
             return void message.reply(`no query provided`);
         }
 
-        //if (message.channel.id !== '1135953335388733502') {
-        //    return void message.reply(`you cannot use this command, please move to its dedicated channel or use \`${prefix}cfind\` instead`);
-        //}
+        if (message.channel.id !== '1135953335388733502') {
+            return void message.reply(`you cannot use this command, please move to its dedicated channel or use \`${prefix}cfind\` instead`);
+        }
         let fuzzyValue = 0;
         
         let allResults = client.modelSearchEngine.search(query, { fuzzy: fuzzyValue }).filter(result => result.downloadURL && result.downloadURL.length);
