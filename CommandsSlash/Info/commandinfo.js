@@ -32,7 +32,7 @@ module.exports = {
         const command = client.slashCommands.get(cmd);
 
         const commandInfoEmbed = new EmbedBuilder()
-            .setDescription(`# \`/${command.data.name}\`\n- **Category**: ${command.category}\n- **Description**: ${command.data.description}\n- **Syntax**: \`/${command.data.name} ${command.data.options.map(option => option.required ? `<${option.name}>` : `[${option.name}]`).join(` `)}\`\n- **Arguments**:\n ${command.data.options.length ? command.data.options.map(option => `\`${option.name}\` - ${option.description}`).join(`\n`) : `This command does not have any available arguments`}`)
+            .setDescription(`# \`/${command.data.name}\`\n- **Category**: ${command.category}\n- **Description**: ${command.data.description}\n- **Syntax**: \`/${command.data.name} ${command.data.options.map(option => option.required ? `<${option.name}>` : `[${option.name}]`).join(` `)}\`\n- **Arguments**: ${command.data.options.length ? command.data.options.map(option => `\`${option.name}\` - ${option.description}`).join(` | `) : `This command does not have any available arguments`}`)
             .setColor(`Yellow`);
 
         await interaction.reply({ embeds: [commandInfoEmbed] });
