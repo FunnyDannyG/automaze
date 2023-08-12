@@ -33,6 +33,7 @@ const client = new Discord.Client({
 
 client.commands = new Discord.Collection();
 client.slashCommands = new Discord.Collection();  // slash commands bruh
+client.contextMenuCommands = new Discord.Collection();
 
 client.snipes = new Discord.Collection();
 client.esnipes = new Discord.Collection();
