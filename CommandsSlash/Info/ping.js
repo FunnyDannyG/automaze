@@ -3,7 +3,7 @@ const ms = require(`pretty-ms`);
 
 module.exports = {
     category: `Info`,
-    scope: `Global`,
+    scope: `global`,
     type: `slash`,
 
     data: new SlashCommandBuilder()

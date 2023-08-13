@@ -139,98 +139,102 @@ function snowflakeToName(tags) { // tags is an array of snowflakes
     return output;
 }
 
-module.exports.run = async (client, thread, newlyCreated) => {
-    if (!newlyCreated) {
-        return;
-    }
+module.exports = {
+    name: "threadCreate",
+    once: false,
+    async run(client, thread, newlyCreated){
 
-    if (thread.parentId === '1127426867767562270') {
-        const voteEmbed = new Discord.EmbedBuilder()
-            .setTitle(`Vote for this suggestion!`)
-            .setColor(`Yellow`);
-
-        const msg = await thread.send({ embeds: [voteEmbed] })
-
-        await Promise.all([
-            msg.react(`🔼`),
-            msg.react(`🔽`)
-        ]);
-    }
-
-    async function fetchStarter() {
-        let msg;
-        let iteration = 1
-
-        while (iteration <= 5) {
-            try {
-                msg = await thread.fetchStarterMessage();
-                break;
-            } catch {
-                iteration++;
-            }
-        }
-
-        return msg;
-    }
-  
-    const msg = await fetchStarter();
-    const threadMember = await thread.fetchOwner();
-    const user = threadMember.user;
+        if (!newlyCreated) return;
     
-    const validation = async () => {
-        // Only allows threads created from forum
-        if (thread.parent.type !== Discord.ChannelType.GuildForum) {
-            return;
+        if (thread.parentId === '1127426867767562270') {
+            const voteEmbed = new Discord.EmbedBuilder()
+                .setTitle(`Vote for this suggestion!`)
+                .setColor(`Yellow`);
+    
+            const msg = await thread.send({ embeds: [voteEmbed] })
+    
+            await Promise.all([
+                msg.react(`🔼`),
+                msg.react(`🔽`)
+            ]);
         }
-
-        if (thread.parentId !== '1099149801054019604') {
-            return;
+    
+        async function fetchStarter() {
+            let msg;
+            let iteration = 1
+    
+            while (iteration <= 5) {
+                try {
+                    msg = await thread.fetchStarterMessage();
+                    break;
+                } catch {
+                    iteration++;
+                }
+            }
+    
+            return msg;
         }
-
-        const regexHug = new RegExp('huggingface.co', 'g', 'i', 'm');
-        const regexKits = new RegExp('app.kits.ai', 'g', 'i', 'm');
-
-        if (!regexHug.test(msg.content) && !regexKits.test(msg.content) && !msg.member.permissions.has(Discord.PermissionFlagsBits.ManageThreads)) {
-            const embed = new Discord.EmbedBuilder()
-                .setTitle(`Your thread was deleted because you didn't attach a valid huggingface.co link nor a kits link!`)
-                .setDescription(Discord.hyperlink(`Don't know how to upload your voice model to Hugging Face?`, `https://rentry.org/FunnyDannyG_Guide`))
-                .setColor(0xFF0000);
-
-            await user.send({ embeds: [embed] });
-            await thread.delete();
-            return 'invalid';
+      
+        const msg = await fetchStarter();
+        const threadMember = await thread.fetchOwner();
+        const user = threadMember.user;
+        
+        const validation = async () => {
+            // Only allows threads created from forum
+            if (thread.parent.type !== Discord.ChannelType.GuildForum) {
+                return;
+            }
+    
+            if (thread.parentId !== '1099149801054019604') {
+                return;
+            }
+    
+            const regexHug = new RegExp('huggingface.co', 'g', 'i', 'm');
+            const regexKits = new RegExp('app.kits.ai', 'g', 'i', 'm');
+    
+            if (!regexHug.test(msg.content) && !regexKits.test(msg.content) && !msg.member.permissions.has(Discord.PermissionFlagsBits.ManageThreads)) {
+                const embed = new Discord.EmbedBuilder()
+                    .setTitle(`Your thread was deleted because you didn't attach a valid huggingface.co link nor a kits link!`)
+                    .setDescription(Discord.hyperlink(`Don't know how to upload your voice model to Hugging Face?`, `https://rentry.org/FunnyDannyG_Guide`))
+                    .setColor(0xFF0000);
+    
+                await user.send({ embeds: [embed] });
+                await thread.delete();
+                return 'invalid';
+            }
+    
+            return 'valid';
         }
-
-        return 'valid';
-    }
-
-    const status = await validation();
-
-    if (status === 'valid') {
-        let parsedArray = require(`../JSON/models.json`);
-        const lastIndex = parsedArray.at(-1).id;
-
-        const threadMetadata = {
-            id: lastIndex + 1,
-            title: thread.name,
-            starterMessage: msg.content,
-            creator: user.username,
-            creatorID: user.id,
-            creationTimestamp: thread.createdTimestamp,
-            downloadURL: Extractor.extractDownloadLinks(msg.content),
-            illustrationURL: Extractor.extractAttachmentLinks(msg),
-            tags: snowflakeToName(thread.appliedTags)
+    
+        const status = await validation();
+    
+        if (status === 'valid') {
+            let parsedArray = require(`../JSON/models.json`);
+            const lastIndex = parsedArray.at(-1).id;
+    
+            const threadMetadata = {
+                id: lastIndex + 1,
+                title: thread.name,
+                starterMessage: msg.content,
+                creator: user.username,
+                creatorID: user.id,
+                creationTimestamp: thread.createdTimestamp,
+                downloadURL: Extractor.extractDownloadLinks(msg.content),
+                illustrationURL: Extractor.extractAttachmentLinks(msg),
+                tags: snowflakeToName(thread.appliedTags)
+            }
+    
+            parsedArray.push(threadMetadata);
+            fs.writeFileSync(`${process.cwd()}/JSON/models.json`, JSON.stringify(parsedArray));
+            client.modelSearchEngine.add(threadMetadata);
+    
+            const successEmbed = new Discord.EmbedBuilder()
+            .setTitle(`Model indexed~`)
+            .setDescription(`Model's metadata\n\`\`\`\n${JSON.stringify(threadMetadata, null, 2)}\n\`\`\``)
+            .setColor(`Green`);
+    
+            thread.send({embeds: [successEmbed]});
         }
-
-        parsedArray.push(threadMetadata);
-        fs.writeFileSync(`${process.cwd()}/JSON/models.json`, JSON.stringify(parsedArray));
-        client.modelSearchEngine.add(threadMetadata);
-
-        const successEmbed = new Discord.EmbedBuilder()
-        .setTitle(`Model indexed~`)
-        .setDescription(`Model's metadata\n\`\`\`\n${JSON.stringify(threadMetadata, null, 2)}\n\`\`\``)
-        .setColor(`Green`);
-
-        thread.send({embeds: [successEmbed]});
+        
     }
 }
