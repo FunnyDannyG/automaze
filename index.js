@@ -1,6 +1,5 @@
-// Dev-Mode, uncomment if you are in dev mode
 // Remember I will create the .env file if it is not already created
-require('dotenv').config();
+const Env = require('dotenv').config();
 
 // Libraries
 const Enmap = require("enmap");
@@ -17,7 +16,7 @@ const DiscordIDs = {
 
 // Hosting? only prod
 // If you are going to fork this, remove line 5-14, they are there for hosting purpose, you don't need them if you run locally
-if(!process.env.DB_URL){
+if(Env.error != null){
     const express = require("express");
     const app = express();
     
@@ -45,7 +44,7 @@ const client = new Discord.Client({
 });
 
 // Discord IDs JSON
-client.discordIDs = require(!process.env.DB_URL ? DiscordIDs.prod: DiscordIDs.dev);
+client.discordIDs = require((Env.error != null) ? DiscordIDs.prod: DiscordIDs.dev);
 
 // Discord Collections 
 client.commands = new Discord.Collection();
