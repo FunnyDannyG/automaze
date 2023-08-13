@@ -13,8 +13,9 @@ module.exports = {
      * @param {string[]} args 
      * @param {String} prefix 
      */
-    run: (client, message, args, prefix) => {
+    run: async (client, message, args, prefix) => {
         if (message.author.id !== '707400633451282493') {
+            await message.reply('Yo, you ain\'t fungus');
             return;
         }
 

@@ -1,5 +1,4 @@
 const { EmbedBuilder } = require("discord.js");
-const { byValue, byNumber } = require('sort-es')
 
 module.exports = {
   name: 'topbanana',
@@ -15,21 +14,10 @@ module.exports = {
    * @param {String} prefix 
    */
   run: async (client, message, args, prefix) => {
-    const lbUnsorted = JSON.parse(client.banana.export()).keys
-    const lbSorted = lbUnsorted.sort(byValue(i => i.value, byNumber({ desc: true }))).slice(0, 10)
-
-    let description = [];
-    for (const entry of lbSorted) {
-      const entryVal = Object.values(entry);
-      const user = await client.users.fetch(entryVal[0])
-      description.push(`**‣ ${user.username}** - ${entryVal[1]}`)
-    }
-
-    const bananEmbed = new EmbedBuilder()
-      .setTitle(`THE FORTNITE BALLS LEADERBANAN`)
-      .setDescription(description.join(`\n`))
-      .setColor(`Yellow`);
-
-    message.reply({ embeds: [bananEmbed] })
+    const embedBuilder = new EmbedBuilder()
+                              .setTitle('DEPRECATED!')
+                              .setColor(0xFF0000)
+                              .setDescription('Use **/topbanana** instead');
+    await message.reply({ embeds: [embedBuilder] });
   }
 }

@@ -1,10 +1,24 @@
 const { EmbedBuilder } = require("discord.js");
-const ms = require(`pretty-ms`)
+const ms = require(`pretty-ms`);
+
+const responses = [
+    'I won\'t tell what was deleted',
+    'Don\'t insist...I won\'t tell what was deleted 😤',
+    'Was something deleted? I wasn\'t aware',
+    'Wanna know what was deleted?\n\n> **Answer:** A message 😁 (ye, not that funny)',
+    'Hey, soul sister\nAin\'t that Mr. Mister on the radio, stereo...🎤',
+    'Nice try...',
+    'I ain\'t gonna tell you what was deleted 🤐',
+    'Nothing was deleted ig',
+    'A message was deleted. Can I help you with anything else?',
+    'Sorry, I didn\'t see what was deleted. Anyone saw?',
+    'Deleted message was: This AI HUB shit gets dangerous'
+];
 
 module.exports = {
     name: 'snipe',
     category: 'Fun',
-    description: 'Returns the last deleted message in current or specified channel',
+    description: 'Returns the last deleted message in current or specified channel (not anymore, sorry)',
     aliases: [],
     syntax: `snipe [channel]`,
     /**
@@ -15,62 +29,13 @@ module.exports = {
      * @param {String} prefix 
      */
     run: (client, message, args, prefix) => {
-        class Extractor {
-            static extractAttachmentLinks(msg) {
-                if (!msg?.content) {
-                    return;
-                }
-
-                const text = msg.content;
-
-                const matches = text.match(/\bhttps?:\/\/[^>\s<]+(?![^<]*<>)/gim);
-
-                if (!matches) {
-                    return;
-                }
-              
-                if (matches.filter(url => ['tenor.com', 'giphy.com'].includes(new URL(url).host)).length) {
-                    return matches.filter(url => ['tenor.com', 'giphy.com'].includes(new URL(url).host));
-                }
-
-                if (matches.filter(url => url.endsWith('.gif') || url.endsWith('.jpeg') || url.endsWith('.jpg') || url.endsWith('.png') || url.endsWith('.img')).length) {
-                    return matches.filter(url => url.endsWith('.gif') || url.endsWith('.jpeg') || url.endsWith('.jpg') || url.endsWith('.png') || url.endsWith('.img'));
-                }
-
-                return;
-            }
-        }
-
-        const channel = message.mentions.channels.first() || client.channels.cache.get(args[0]) || message.channel;
-        const coll = client.snipes.filter(msg => msg.channelId === channel.id);
-
-        const snipedMsg = coll.last();
-
-        if (!snipedMsg) {
-            return void message.channel.send(`No message was deleted, or incomplete message data`)
-        }
-
-        const snipedAuthor = client.users.cache.get(coll.lastKey().split(`_`)[0]);
-        const relativeTimestamp = ms(message.createdTimestamp - coll.lastKey().split(`_`)[1], {verbose: true});
-
+        const randomIndex = Math.floor(Math.random() * responses.length);
+        const randomAnswer = responses[randomIndex];
         const embed = new EmbedBuilder()
-        .setTitle(`💀 i saw what you deleted`)
-        .setColor(0xFF0000)
-        .setAuthor({name: snipedAuthor.username, iconURL: snipedAuthor.avatarURL()})
-        .setFooter({text: `Created ${relativeTimestamp} ago in #${channel.name} | requested by ${message.author.username}`})
-
-        if (snipedMsg.content) {
-            embed.setDescription(snipedMsg.content)
-        }
-
-        if (snipedMsg.attachments.first()) {
-            embed.setImage(snipedMsg.attachments.first().url);
-        }
-
-        if (Extractor.extractAttachmentLinks(snipedMsg)) {
-            embed.setImage(Extractor.extractAttachmentLinks(snipedMsg)[0]);
-        }
-
-        message.channel.send({embeds: [embed]})
+                            .setTitle(`💀 I saw what you deleted (kind of)`)
+                            .setColor(0xFF0000)
+                            .setDescription(`${message.author} ${randomAnswer}`)
+                            .setFooter({text: 'Note: This command will be removed soon'});
+        message.channel.send({embeds: [embed]});
     }
 }
