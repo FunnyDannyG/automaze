@@ -3,7 +3,6 @@
 require('dotenv').config();
 
 // Libraries
-const fs = require('fs');
 const Enmap = require("enmap");
 const Discord = require(`discord.js`);
 
