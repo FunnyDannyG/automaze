@@ -143,9 +143,8 @@ module.exports = {
     name: "threadCreate",
     once: false,
     async run(client, thread, newlyCreated){
-        if (!newlyCreated) {
-            return;
-        }
+
+        if (!newlyCreated) return;
     
         if (thread.parentId === '1127426867767562270') {
             const voteEmbed = new Discord.EmbedBuilder()
@@ -236,5 +235,6 @@ module.exports = {
     
             thread.send({embeds: [successEmbed]});
         }
+        
     }
 }

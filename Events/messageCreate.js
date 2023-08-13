@@ -4,9 +4,8 @@ module.exports = {
     name: "messageCreate",
     once: false,
     run(client, message, _){
-        if (message.author.bot) {
-            return;
-        }
+
+        if (message.author.bot) return;
     
         const prefix = client.prefix.ensure(message.guild.id, '-');
         const range = i => [...Array(i).keys()];
@@ -43,5 +42,6 @@ module.exports = {
     
             command.run(client, message, args, prefix);
         }
+        
     }
 }
