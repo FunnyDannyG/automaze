@@ -7,6 +7,9 @@ const fs = require('fs');
 const Enmap = require("enmap");
 const Discord = require(`discord.js`);
 
+// Exports
+const { getAllFiles } = require('./utils')
+
 // JSONs
 const DiscordIDs = {
     prod: "./Configs/idsDiscordProd.json",
@@ -69,9 +72,9 @@ client.scourCD = new Enmap();
 client.prefix = new Enmap({name: 'prefix'});
 
 // Read all handlers of the folder
-const handlerFiles = fs.readdirSync('./Handlers').filter(file => file.endsWith('.js'));
+const handlerFiles = getAllFiles('./Handlers').filter(file => file.endsWith('.js'));
 for(const handler of handlerFiles) {
-    require(`./Handlers/${handler}`)(client, Discord);
+    require(handler)(client, Discord);
 };
 
 // Add your bot token in the token variable in the .env file (create it if it doesn't exist)
