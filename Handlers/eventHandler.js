@@ -1,16 +1,14 @@
-const fs = require(`fs`);
+const { getAllFiles } = require('../utils');
 
-module.exports = client => {
+module.exports = Client => {
     const eventsPath = `${process.cwd()}/Events`;
-    const eventFiles = fs.readdirSync(eventsPath).filter(file => file.endsWith(`.js`));
-
-    for (const file of eventFiles) {
-        const filePath = `${eventsPath}/${file}`;
-        const event = require(filePath);
-        const eventName = file.split(`.`)[0];
-
-        client.on(eventName, (...arg) => {
-            event.run(client, ...arg);
-        });
+    const eventFiles = getAllFiles(eventsPath).filter(file => file.endsWith(`.js`));
+    for(const fileEvent of eventFiles){
+        const Event = require(fileEvent);
+        if (Event.once) {
+            Client.once(Event.name, async (...args) => await Event.run(Client, ...args));
+        } else {
+            Client.on(Event.name, async (...args) => await Event.run(Client, ...args));
+        }
     }
 }
