@@ -291,8 +291,8 @@ module.exports = {
             console.error(err)
             msg.edit({embeds: [failedEmbed.setDescription(`The process ran into an unexpected error!\n\`\`\`\n${err.toString()}\n\`\`\`\nA total of ${iteration} processed threads are saved anyway.`)]})
         } finally {
-            fs.writeFileSync(`./result.json`, JSON.stringify(result, null, 2))
-            message.author.send({content: `Fetching completed. Output:`, files: [`./result.json`]})
+            fs.writeFileSync(`./JSON/result.json`, JSON.stringify(result, null, 2))
+            message.author.send({content: `Fetching completed. Output:`, files: [`./JSON/result.json`]})
         }
     }
 }
