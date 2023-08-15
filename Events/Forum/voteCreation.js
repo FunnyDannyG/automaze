@@ -7,14 +7,20 @@ module.exports = {
     async run(Client, Threader, newlyCreated){
         try{
 
+            // Channels needed
+            let Forums = {
+                [Client.discordIDs.Forum.Suggestions] : "Vote for this suggestion!",
+                [Client.discordIDs.Forum.TaskSTAFF] : "Vote for this Task!"
+            }
+
             // Check is a Request Forum
             if(!newlyCreated) return;
             if(Threader.guildId != Client.discordIDs.Guild) return;
-            if(Threader.parentId != Client.discordIDs.Forum.Suggestions) return;
+            if(!Forums[Threader.parentId]) return;
 
             // Votation Embed
             const voteEmbed = new Discord.EmbedBuilder()
-                .setTitle(`Vote for this suggestion!`)
+                .setTitle(Forums[Threader.parentId])
                 .setColor(`Yellow`);
 
             // Check if exists the channel
