@@ -46,9 +46,6 @@ module.exports = {
 };
 
 async function createChannel(client, interaction) {
-    const fetchedLogs = await client.guild.fetchAuditLogs();
-    const firstEntry = fetchedLogs.entries.first();
-    console.log(firstEntry);
     if(currentChannel.id == null) {
         const name = interaction.options.getString('name') ? interaction.options.getString('name') : "modlog";
         currentChannel = await interaction.guild.channels.create({

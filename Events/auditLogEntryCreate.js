@@ -2,44 +2,48 @@ const { Events, AuditLogEvent } = require('discord.js');
 
 module.exports = {
 	name: Events.GuildAuditLogEntryCreate,
-	run(_, auditLogEntry, guild) {
-        console.log("entry was created")
-		addModlogEvent(auditLogEntry, guild);
+	run(client, auditLogEntry, guild) {
+        console.log("a");
+		addModlogEvent(auditLogEntry, client);
 	},
 };
 
-async function addModlogEvent(auditLogEntry, guild) {
+async function addModlogEvent(auditLogEntry, client) {
     const { action, executorId, targetId } = auditLogEntry;
-    const savedChannel = require('../JSON/modlog.json');
-    const currentChannel = guild.channels.cache.get(savedChannel.id);
+    const currentChannel = require('../JSON/modlog.json');
     const desiredEvents = [
-        AuditLogEvent.AutoModerationUserCommunicationDisabled, 
+        AuditLogEvent.MemberUpdate, 
         AuditLogEvent.MemberPrune, AuditLogEvent.MemberBanAdd, 
         AuditLogEvent.MemberBanRemove, AuditLogEvent.MemberKick
     ]
-
-    if (!(action in desiredEvents) || (currentChannel == null)) return;
-
-    const executor = await guild.users.fetch(executorId);
-    const target = await guild.users.fetch(targetId);
+    console.log(`${action} ${!desiredEvents.includes(action)} ${currentChannel == null}`);
+    if (!desiredEvents.includes(action) || (currentChannel == null)) return;
+    console.log("c");
+    const executor = await client.users.fetch(executorId);
+    const target = await client.users.fetch(targetId);
 
     switch(action) {
-        case AuditLogEvent.AutoModerationUserCommunicationDisabled:
-            currentChannel.send(`${target.tag} was timed out by ${executor.tag}`);
+        case AuditLogEvent.MemberUpdate:
+            await client.channels.cache.get(currentChannel.id).send(`${target.tag} was timed out by ${executor.tag}`);
+            console.log(`${target.tag} was timed out by ${executor}`);
             break;
         case AuditLogEvent.MemberPrune:
-            currentChannel.send(`${target.tag} was pruned by ${executor.tag}`);
+            await client.channels.cache.get(currentChannel.id).send(`${target} was pruned by ${executor}`);
+            console.log(`${target.tag} was pruned by ${executor.tag}`);
             break;
         case AuditLogEvent.MemberBanAdd:
-            currentChannel.send(`${target.tag} was banned by ${executor.tag}`);
+            await client.channels.cache.get(currentChannel.id).send(`${target.tag} was banned by ${executor.tag}`);
+            console.log(`${target.tag} was banned by ${executor.tag}`);
             break;
         case AuditLogEvent.MemberBanRemove:
-            currentChannel.send(`${target.tag} was unbanned by ${executor.tag}`);
+            await client.channels.cache.get(currentChannel.id).send(`${target.tag} was unbanned by ${executor.tag}`);
+            console.log(`${target.tag} was unbanned by ${executor.tag}`);
             break;
         case AuditLogEvent.MemberKick:
-            currentChannel.send(`${target.tag} was kicked by ${executor.tag}`);
+            await client.channels.cache.get(currentChannel.id).send(`${target.tag} was kicked by ${executor.tag}`);
+            console.log(`${target.tag} was kicked by ${executor.tag}`);
             break;
         default:
-            currentChannel.send(`How did we get here?\nWho let the ${action} in?`);
+            console.error(`How did we get here?\nWho let the ${action} in?`);
     }
 }
