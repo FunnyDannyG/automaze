@@ -1,15 +1,10 @@
-/*
-In the .env file, add both the id where the slash command will be registered and the bot client secret.
-If you are going to run this locally, un-comment dotenv import and config.
-
 const dotenv = require('dotenv');
 dotenv.config();
-*/
 
 const clientId = process.env.clientId;
 const token = process.env.token;
 
-const guildId = '1089076875999072296'; // By default, this is the guildId of AI Hub. If you want to deploy in your own guild locally, change this ID accordingly
+const guildId = '1139377857261477928'; // By default, this is the guildId of AI Hub. If you want to deploy in your own guild locally, change this ID accordingly
 
 const { REST, Routes } = require('discord.js');
 const fs = require('node:fs');
@@ -46,7 +41,7 @@ const rest = new REST().setToken(token);
 
         // The put method is used to fully refresh all commands in the guild with the current set
         const data = await rest.put(
-            Routes.applicationGuildsCommands(clientId, guildId),
+            Routes.applicationGuildCommands(clientId, guildId),
             { body: commands },
         );
 

@@ -1,8 +1,7 @@
 const Enmap = require("enmap");
-const documents = require(`./JSON/models.json`);
+const documents = require(`./JSON/_models.json`);
 const miniSearch = require('minisearch');
-// require('dotenv').config();
-// If you are going to fork this, remove line 5-14, they are there for hosting purpose, you don't need them if you run locally
+require('dotenv').config();
 
 const Discord = require(`discord.js`);
 

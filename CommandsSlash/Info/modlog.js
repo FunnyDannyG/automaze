@@ -1,9 +1,10 @@
-const { channel } = require('diagnostics_channel');
-const { SlashCommandBuilder, PermissionFlagsBits, AuditLogEvent } = require('discord.js');
+const { SlashCommandBuilder, PermissionFlagsBits, ChannelType, AuditLogEvent } = require('discord.js');
+const fs = require('fs');
+let currentChannel = require('../../JSON/modlog.json');
 
 module.exports = {
     category: 'Utilities',
-    scope: 'Global',
+    scope: 'local',
     type: 'slash',
 
     data: new SlashCommandBuilder()
@@ -20,32 +21,69 @@ module.exports = {
             subcommand
                 .setName('change')
                 .setDescription('Change modlog channel')
-                .addChannelOption(option => option
+                .addStringOption(option => option
                     .setName('name')
-                    .setDescription('channel to switch modlog to')
+                    .setDescription('channel name to switch current modlog to')
                     .setRequired(true)))
         .addSubcommand(subcommand =>
             subcommand
                 .setName('delete')
-                .setDescription('Delete modlog channel'))
+                .setDescription('Delete modlog channel')
+                .addStringOption(option => option
+                    .setName('reason')
+                    .setDescription('reason for deleting modlog')))
         .setDefaultMemberPermissions(PermissionFlagsBits.Administrator),
 
     async execute(client, interaction) {
         if(interaction.options.getSubcommand() == 'add') {
-            client.on('channelCreate', (channel) => {
-                console.log(channel);
-            });
-            await interaction.reply(`${interaction.options.getString()} channel was created`);
+            createChannel(client, interaction);
         } else if(interaction.options.getSubcommand() == 'change') {
-            client.on('channelUpdate', (oldChannel, newChannel) => {
-                console.log(oldChannel, newChannel);
-            });
-            await interaction.reply(`Modlog was changed to channel ${interaction.options.getString()}`);
+            changeChannel(client, interaction);
         } else if(interaction.options.getSubcommand() == 'add') {
-            client.on('channelDelete', (channel) => {
-                console.log(channel);
-            });
-            await interaction.reply(`Modlog was deleted}`);
+            deleteChannel(interaction);
         }
     },
 };
+
+async function createChannel(client, interaction) {
+    const fetchedLogs = await client.guild.fetchAuditLogs();
+    const firstEntry = fetchedLogs.entries.first();
+    console.log(firstEntry);
+    if(currentChannel.id == null) {
+        const name = interaction.options.getString('name') ? interaction.options.getString('name') : "modlog";
+        currentChannel = await interaction.guild.channels.create({
+            name: name,
+            type: ChannelType.AuditLogEvent
+        });
+        fs.writeFileSync(`${process.cwd()}/JSON/modlog.json`, JSON.stringify(currentChannel));
+        await interaction.reply(`Modlog channel "${currentChannel.name}" was created`);
+        console.log(`Modlog channel "${currentChannel.name}" was created`);
+    } else {
+        await interaction.reply(`Modlog channel "${currentChannel.name}" already exists`);
+        console.log(`Modlog channel "${currentChannel.name}" already exists`);
+    }
+}
+
+async function changeChannel(client, interaction) {
+    const previousName = currentChannel.name;
+    const newName = interaction.options.getString('name');
+    await client.channels.cache.get(currentChannel.id).edit({ name: newName });
+    currentChannel.name = newName;
+    fs.writeFileSync(`${process.cwd()}/JSON/modlog.json`, JSON.stringify(currentChannel));
+    await interaction.reply(`Modlog changed from ${previousName} to ${currentChannel.name}`);
+    console.log(`Modlog changed from ${previousName} to ${currentChannel.name}`);
+}
+
+async function deleteChannel(client, interaction) {
+    const previousName = currentChannel.name;
+    const reason = interaction.options.getString('reason');
+    await client.channels.cache.get(currentChannel.id).delete(reason);
+    if(reason) {
+        await interaction.reply(`Modlog channel "${previousName}" was deleted because ${reason}`);
+        console.log(`Modlog channel "${previousName}" was deleted because ${reason}`);
+    } else {
+        await interaction.reply(`Modlog channel "${previousName}" was deleted`);
+        console.log(`Modlog channel "${previousName}" was deleted`);
+    }
+    fs.writeFileSync(`${process.cwd()}/JSON/modlog.json`, '{}');    
+}
