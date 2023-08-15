@@ -1,6 +1,3 @@
-const Discord = require('discord.js');
-const { delay } = require(process.cwd() + '/utils.js');
-
 module.exports = {
     name: "messageCreate",
     once: false,
