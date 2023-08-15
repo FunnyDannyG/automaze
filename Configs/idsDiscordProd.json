@@ -14,7 +14,16 @@
             "Tags" : {
                 "Free" : "",
                 "Paid" : ""
-            }
-        }
+            },
+            "ComissionAllow" : [ "ModelMaster", "ModelQC", "Helper", "Mod", "Admin" ]
+        },
+        "TaskSTAFF" : "1139248461070467243"
+    },
+    "Roles" : {
+        "ModelMaster" : "",
+        "ModelQC" : "",
+        "Helper" : "",
+        "Mod" : "",
+        "Admin" : ""
     }
 }
