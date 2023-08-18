@@ -1,4 +1,5 @@
 {
+    "Guild" : "1089076875999072296",
     "Admin": {
         "BanLog" : "1127798056734179408"
     },
@@ -7,6 +8,22 @@
     },
     "Forum" : {
         "Suggestions" : "1127426867767562270",
-        "VoiceModel" : "1099149801054019604"
+        "VoiceModel" : "1099149801054019604",
+        "RequestModel" : {
+            "ID" : "1139025361712201728",
+            "Tags" : {
+                "Free" : "",
+                "Paid" : ""
+            },
+            "ComissionAllow" : [ "ModelMaster", "ModelQC", "Helper", "Mod", "Admin" ]
+        },
+        "TaskSTAFF" : "1139248461070467243"
+    },
+    "Roles" : {
+        "ModelMaster" : "",
+        "ModelQC" : "",
+        "Helper" : "",
+        "Mod" : "",
+        "Admin" : ""
     }
 }

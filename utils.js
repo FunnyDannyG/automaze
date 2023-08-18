@@ -15,3 +15,11 @@ function getAllFiles(currentPath){
     return currentFiles;
 }
 exports.getAllFiles = getAllFiles;
+
+// Create delay async in the script
+async function delay(ms) {
+    return new Promise(resolve => {
+      setTimeout(resolve, ms);
+    });
+}
+exports.delay = delay;
