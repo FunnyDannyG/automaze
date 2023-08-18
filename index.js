@@ -1,5 +1,5 @@
 // Remember I will create the .env file if it is not already created
-const Env = require('dotenv').config();
+// const Env = require('dotenv').config();
 
 // Libraries
 const Enmap = require("enmap");
@@ -14,20 +14,16 @@ const DiscordIDs = {
     dev: "./Configs/idsDiscordDev.json"
 }
 
-// Hosting? only prod
-// If you are going to fork this, remove line 5-14, they are there for hosting purpose, you don't need them if you run locally
-if(Env.error != null){
-    const express = require("express");
-    const app = express();
-    
-    app.listen(3000, () => {
-      console.log("whatever you want here");
-    });
-    
-    app.get("/", (_, res) => {
-      res.send("whatever you want here");
-    });
-}
+const express = require("express");
+const app = express();
+
+app.listen(3000, () => {
+    console.log("whatever you want here");
+});
+
+app.get("/", (_, res) => {
+    res.send("whatever you want here");
+});
 
 // Discord Client initialization
 const client = new Discord.Client({
@@ -44,7 +40,7 @@ const client = new Discord.Client({
 });
 
 // Discord IDs JSON
-client.discordIDs = require((Env.error != null) ? DiscordIDs.prod: DiscordIDs.dev);
+client.discordIDs = DiscordIDs.prod
 
 // Discord Collections 
 client.commands = new Discord.Collection();
@@ -57,21 +53,21 @@ client.use = new Discord.Collection();
 client.doxx = new Discord.Collection();
 
 // Enmap's creation
-client.items = new Enmap({name: 'items'});
-client.currencies = new Enmap({name: 'currencies'});
-client.equipments = new Enmap({name: 'equipments'});
-client.models = new Enmap({name: 'models'});
-client.levels = new Enmap({name: 'levels'});
-client.exp = new Enmap({name: 'exp'});
-client.epochs = new Enmap({name: 'epochs'});
-client.banana = new Enmap({name: 'banana'});
+client.items = new Enmap({ name: 'items' });
+client.currencies = new Enmap({ name: 'currencies' });
+client.equipments = new Enmap({ name: 'equipments' });
+client.models = new Enmap({ name: 'models' });
+client.levels = new Enmap({ name: 'levels' });
+client.exp = new Enmap({ name: 'exp' });
+client.epochs = new Enmap({ name: 'epochs' });
+client.banana = new Enmap({ name: 'banana' });
 client.bananaCD = new Enmap();
 client.scourCD = new Enmap();
-client.prefix = new Enmap({name: 'prefix'});
+client.prefix = new Enmap({ name: 'prefix' });
 
 // Read all handlers of the folder
 const handlerFiles = getAllFiles('./Handlers').filter(file => file.endsWith('.js'));
-for(const handler of handlerFiles) {
+for (const handler of handlerFiles) {
     require(handler)(client, Discord);
 };
 
