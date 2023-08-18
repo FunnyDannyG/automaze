@@ -73,4 +73,4 @@ for (const handler of handlerFiles) {
 
 // Add your bot token in the token variable in the .env file (create it if it doesn't exist)
 // Then use dotenv to read the token from that file
-client.login(process.env.token);
+client.login(process.env.DISCORDBOTTOKEN);

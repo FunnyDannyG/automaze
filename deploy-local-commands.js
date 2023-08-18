@@ -6,8 +6,8 @@ const dotenv = require('dotenv');
 dotenv.config();
 */
 
-const clientId = process.env.clientId;
-const token = process.env.token;
+const clientId = process.env.CLIENTID;
+const token = process.env.DISCORDBOTTOKEN;
 
 const guildId = '1089076875999072296'; // By default, this is the guildId of AI Hub. If you want to deploy in your own guild locally, change this ID accordingly
 
