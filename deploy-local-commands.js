@@ -4,7 +4,7 @@ dotenv.config();
 const clientId = process.env.clientId;
 const token = process.env.token;
 
-const guildId = '1139377857261477928'; // By default, this is the guildId of AI Hub. If you want to deploy in your own guild locally, change this ID accordingly
+const guildId = '1089076875999072296'; // By default, this is the guildId of AI Hub. If you want to deploy in your own guild locally, change this ID accordingly
 
 const { REST, Routes } = require('discord.js');
 const fs = require('node:fs');
